@@ -5,7 +5,7 @@ import pandas as pd
 
 articles = pd.read_csv("data/review_581959_screen_csv_20250603221248.csv")
 articles = articles[['Title', 'Abstract', 'Covidence #']]
-article_batches = split_into_batches(articles)
+article_batches = split_into_batches(articles, batch_size = 5)
 article_batches
 
 # API configuration (except for api_key)

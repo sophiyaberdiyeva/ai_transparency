@@ -3,7 +3,7 @@ from openai import OpenAI
 from typing import Generator
 from openai.types.chat import ChatCompletionChunk 
 
-def split_into_batches(data: List[List[Any]]) -> List[List[List[Any]]]:
+def split_into_batches(data: List[List[Any]], batch_size) -> List[List[List[Any]]]:
     """
     Splits the input dataset into batches of five rows each.
 
@@ -13,7 +13,7 @@ def split_into_batches(data: List[List[Any]]) -> List[List[List[Any]]]:
     Returns:
         A list of batches, where each batch contains up to five rows.
     """
-    return [data[i:i + 5] for i in range(0, len(data), 5)]
+    return [data[i:i + batch_size] for i in range(0, len(data), batch_size)]
 
 
 
