@@ -1,5 +1,7 @@
 from typing import List, Any
 from openai import OpenAI
+from typing import Generator
+from openai.types.chat import ChatCompletionChunk 
 
 def split_into_batches(data: List[List[Any]]) -> List[List[List[Any]]]:
     """
@@ -16,7 +18,7 @@ def split_into_batches(data: List[List[Any]]) -> List[List[List[Any]]]:
 
 
 
-def get_lmm_response(batch: list, api_key: str, base_url: str, model: str) -> dict:
+def get_lmm_response(batch: list, api_key: str, base_url: str, model: str) -> Generator[ChatCompletionChunk, None, None]:
     """
     Sends a batch of articles to the LMM API and returns the response.
 
