@@ -5,13 +5,14 @@ from openai.types.chat import ChatCompletionChunk
 
 def split_into_batches(data: List[List[Any]], batch_size) -> List[List[List[Any]]]:
     """
-    Splits the input dataset into batches of five rows each.
+    Splits the input dataset into batches of the given size
 
     Args:
         data: A list of rows, where each row is a list of values.
+        batch_size: The maximum number of rows in each batch.
 
     Returns:
-        A list of batches, where each batch contains up to five rows.
+        A list of batches, where each batch contains up to batch_size rows.
     """
     return [data[i:i + batch_size] for i in range(0, len(data), batch_size)]
 
@@ -23,7 +24,7 @@ def get_lmm_response(batch: list, api_key: str, base_url: str, model: str) -> Ge
     Sends a batch of articles to the LMM API and returns the response.
 
     Args:
-        batch: A list of articles, where each article is a dictionary with 'Title', 'Abstract', and 'Covidence #' keys.
+        batch: A list of articles, where each article is a list with 'Title', 'Abstract', and 'Covidence #' keys.
         api_key: The API key for authentication.
         base_url: The base URL for the LMM API.
         model: The model to use for the LMM API request.
