@@ -8,9 +8,6 @@ import pandas as pd
 
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-
-
-
     
 human = pd.read_csv("data/human_title_abstract_50.csv")
 llm = pd.read_csv("data/llm_title_abstract_50.csv")
@@ -49,12 +46,12 @@ cm_th = confusion_matrix(human['human_is_theoretical'], llm['llm_is_theoretical'
 fig, ax = plt.subplots()
 disp = ConfusionMatrixDisplay(confusion_matrix=cm_th)
 disp.plot(ax=ax)
-ax.set_title("Confusion matrix for the theoretical article detection")
+ax.set_title("Confusion matrix for the theoretical articles detection")
 plt.show()
 
 cm_mar = confusion_matrix(human['human_is_marketing'], llm['llm_is_marketing'])
 fig, ax = plt.subplots()
 disp = ConfusionMatrixDisplay(confusion_matrix=cm_mar)
 disp.plot(ax=ax)
-ax.set_title("Confusion matrix for the theoretical article detection")
+ax.set_title("Confusion matrix for the marketing articles detection")
 plt.show()
