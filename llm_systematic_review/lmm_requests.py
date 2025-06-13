@@ -2,34 +2,37 @@ from instance.config import api_key
 from llm_systematic_review.helpers import *
 import io
 import pandas as pd
+import time
 
 articles = pd.read_csv("data/review_581959_screen_csv_20250603221248.csv")
 articles = articles[['Title', 'Abstract', 'Covidence #']]
-article_batches = split_into_batches(articles, batch_size = 5)
-article_batches
+articles = articles.head(50)
 
+ 
 # API configuration (except for api_key)
 base_url = "https://chat-ai.academiccloud.de/v1"
-model = "llama-3.3-70b-instruct" # Choose any available model
+model = "llama-3.3-70b-instruct"
 
 results = []
 
-# Iterate through batches, get LLM decisions as csv and store them in Dataframe
-for batch in article_batches:
-    response = get_lmm_response(batch, api_key, base_url, model)
-    
-    csv_text = ""
+start_time = time.time()
+# Iterate through articles, get LLM decisions as csv and store them in Dataframe
+for _, article in articles.iterrows():
+    response = llm_title_abstract(article.tolist(), api_key, base_url, model)
 
-    for chunk in response:
-        if 'choices' in chunk and chunk['choices']:
-            content = chunk['choices'][0].get('delta', {}).get('content', '')
-            if content:
-                csv_text += content
+    content = response.choices[0].message.content
 
-    if csv_text.strip():
-        batch_df = pd.read_csv(io.StringIO(csv_text), header=None)
-        results.append(batch_df)
+    if content.strip():
+        response_df = pd.read_csv(io.StringIO(content), header=None)
+        results.append(response_df)
+        
+    time.sleep(2)
 
-llm_decisions = pd.concat(results, ignore_index=True)
-llm_decisions.columns = ['covidence_no', 'human_participants', 'involves_persuasion', 'persuasion_is_ai', 'is_theoretical']
-llm_decisions.to_csv("data/llm_decisions.csv", index=False)
+end_time = time.time()
+
+print('Execution time:', end_time-start_time)
+final_df = pd.concat(results, ignore_index=True)
+final_df.columns = ['llm_covidence_no', 'llm_human_participants', 'llm_involves_persuasion', 'llm_persuasion_is_ai', 'llm_is_theoretical', 'llm_is_marketing']
+final_df['llm_final_decision'] = final_df.apply(lambda x: 1 if x.llm_human_participants == 1 and x.llm_involves_persuasion == 1 and x.llm_persuasion_is_ai == 1 and x.llm_is_theoretical == 0 and x.llm_is_marketing == 0 else 0, axis=1)
+
+final_df.to_csv("data/llm_title_abstract_50.csv", index=False)

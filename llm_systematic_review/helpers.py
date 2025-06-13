@@ -3,28 +3,12 @@ from openai import OpenAI
 from typing import Generator
 from openai.types.chat import ChatCompletionChunk 
 
-def split_into_batches(data: List[List[Any]], batch_size) -> List[List[List[Any]]]:
-    """
-    Splits the input dataset into batches of the given size
-
-    Args:
-        data: A list of rows, where each row is a list of values.
-        batch_size: The maximum number of rows in each batch.
-
-    Returns:
-        A list of batches, where each batch contains up to batch_size rows.
-    """
-    return [data[i:i + batch_size] for i in range(0, len(data), batch_size)]
-
-
-
-
-def get_lmm_response(batch: list, api_key: str, base_url: str, model: str) -> Generator[ChatCompletionChunk, None, None]:
+def llm_title_abstract(article: list, api_key: str, base_url: str, model: str) -> Generator[ChatCompletionChunk, None, None]:
     """
     Sends a batch of articles to the LMM API and returns the response.
 
     Args:
-        batch: A list of articles, where each article is a list with 'Title', 'Abstract', and 'Covidence #' keys.
+        article: A list with 'Title', 'Abstract', and 'Covidence #' keys.
         api_key: The API key for authentication.
         base_url: The base URL for the LMM API.
         model: The model to use for the LMM API request.
@@ -39,21 +23,16 @@ def get_lmm_response(batch: list, api_key: str, base_url: str, model: str) -> Ge
         base_url = base_url
     )
     
-    # Get stream
-    stream = client.chat.completions.create(
-        messages=[
-            {
-                "role": "user",
-                "content":
-                    "You are given a list of articles, where each article is represented as a list containing the article title, abstract, and Covidence #, in that order. For each article in the provided list, generate a single line of comma-separated values (CSV format) with the following columns: Covidence #, involves human participants, involves persuasion, persuasion is LLM or AI-powered, is purely conceptual or theoretical article. For each criterion (involves human participants, involves persuasion, persuasion is LLM or AI-powered, is purely conceptual or theoretical article), use: '1' if the article meets the criterion, '0' if it does not, '-1' if you are unsure. Output one row per article and nothing else." + str(batch),
-            }
-        ],
-        model=model,
-        stream=True
+    prompt = "Input: A list with [title, abstract, Covidence #].\n Task: Output one CSV line: Covidence #, involves human participants (1/0/-1), involves persuasion (1/0/-1), persuasion is LLM/AI-powered (1/0/-1), purely conceptual/theoretical (1/0/-1), about marketing or customer behavior (1/0/-1). Use 1 if yes, 0 if no, -1 if unclear. Return only the CSV row without explanation. "+ str(article)
+    
+    # Get response
+    chat_completion = client.chat.completions.create(
+        messages=[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content": prompt}],
+        model= model,
     )
-    
+  
     # Print out the response
-    # for chunk in stream:
-    #     print(chunk.choices[0].delta.content or "", end="")
+    #for chunk in resp:
+        #print(chunk.choices[0].delta.content or "", end="")
     
-    return stream
+    return chat_completion
