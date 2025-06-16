@@ -42,12 +42,6 @@ disp.plot(ax=ax)
 ax.set_title("Confusion matrix for AI persuasion detection")
 plt.show()
 
-cm_th = confusion_matrix(human['human_is_theoretical'], llm['llm_is_theoretical'])
-fig, ax = plt.subplots()
-disp = ConfusionMatrixDisplay(confusion_matrix=cm_th)
-disp.plot(ax=ax)
-ax.set_title("Confusion matrix for the theoretical articles detection")
-plt.show()
 
 cm_mar = confusion_matrix(human['human_is_marketing'], llm['llm_is_marketing'])
 fig, ax = plt.subplots()

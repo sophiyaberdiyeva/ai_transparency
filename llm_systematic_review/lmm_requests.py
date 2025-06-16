@@ -32,7 +32,7 @@ end_time = time.time()
 
 print('Execution time:', end_time-start_time)
 final_df = pd.concat(results, ignore_index=True)
-final_df.columns = ['llm_covidence_no', 'llm_human_participants', 'llm_involves_persuasion', 'llm_persuasion_is_ai', 'llm_is_theoretical', 'llm_is_marketing']
-final_df['llm_final_decision'] = final_df.apply(lambda x: 1 if x.llm_human_participants == 1 and x.llm_involves_persuasion == 1 and x.llm_persuasion_is_ai == 1 and x.llm_is_theoretical == 0 and x.llm_is_marketing == 0 else 0, axis=1)
+final_df.columns = ['llm_covidence_no', 'llm_human_participants', 'llm_involves_persuasion', 'llm_persuasion_is_ai', 'llm_is_marketing']
+final_df['llm_final_decision'] = final_df.apply(lambda x: 1 if x.llm_human_participants == 1 and x.llm_involves_persuasion == 1 and x.llm_persuasion_is_ai == 1 and x.llm_is_marketing == 0 else 0, axis=1)
 
 final_df.to_csv("data/llm_title_abstract_50.csv", index=False)

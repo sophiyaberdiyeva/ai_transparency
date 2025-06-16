@@ -23,7 +23,7 @@ def llm_title_abstract(article: list, api_key: str, base_url: str, model: str) -
         base_url = base_url
     )
     
-    prompt = "Input: A list with [title, abstract, Covidence #].\n Task: Output one CSV line: Covidence #, involves human participants (1/0/-1), involves persuasion (1/0/-1), persuasion is LLM/AI-powered (1/0/-1), purely conceptual/theoretical (1/0/-1), about marketing or customer behavior (1/0/-1). Use 1 if yes, 0 if no, -1 if unclear. Return only the CSV row without explanation. "+ str(article)
+    prompt = "Input: A list containing [title, abstract, Covidence #]. Task: Determine the following for each article and output one CSV-formatted line with these columns: Covidence #, involves human participants in the sample (1/0/-1), involves persuasion as intervention (1/0/-1), persuasion is performed with LLM or AI usage in text generation (1/0/-1), persuasion relates to marketing or consumer behavior (1/0/-1). Persuasion is defined as an intentional, goal-directed, message-based process aimed at shaping, reinforcing, or changing human attitudes, beliefs, or behaviors. Use 1 if the criterion is clearly met, 0 if clearly not met, and -1 if uncertain based on the information provided. Return only the single CSV row. Do not include any explanation or extra text."+ str(article)
     
     # Get response
     chat_completion = client.chat.completions.create(
