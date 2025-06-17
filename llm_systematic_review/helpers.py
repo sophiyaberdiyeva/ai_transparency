@@ -1,38 +1,70 @@
-from typing import List, Any
+from typing import Any, Dict
 from openai import OpenAI
-from typing import Generator
 from openai.types.chat import ChatCompletionChunk 
+import json
 
-def llm_title_abstract(article: list, api_key: str, base_url: str, model: str) -> Generator[ChatCompletionChunk, None, None]:
+def create_llm_prompt_string(prompt_template: Dict, title: str, abstract: str) -> str:
     """
-    Sends a batch of articles to the LMM API and returns the response.
+    Fills a prompt template with article-specific information.
 
     Args:
-        article: A list with 'Title', 'Abstract', and 'Covidence #' keys.
-        api_key: The API key for authentication.
-        base_url: The base URL for the LMM API.
-        model: The model to use for the LMM API request.
+        prompt_template: A dictionary representing the base prompt structure.
+        title: The article's title.
+        abstract: The article's abstract.
 
     Returns:
-        The response from the LMM API.
+        A JSON-formatted string to be sent to the LLM.
     """
+    # Deep copy the template to avoid modifying the original
+    filled_prompt = json.loads(json.dumps(prompt_template))
+    
+    # Inject the specific article data into the prompt
+    filled_prompt["input_article"]["title"] = title
+    filled_prompt["input_article"]["abstract"] = abstract
+    
+    return json.dumps(filled_prompt, indent=2)
+
+
+def get_llm_screening_decision(prompt_string: str, api_key: str, base_url: str, model: str) -> Dict[str, Any]:
+    """
+    Sends a formatted prompt to the LLM API and returns the parsed JSON response.
+
+    Args:
+        prompt_string: The complete, JSON-formatted prompt string for the LLM.
+        api_key: The API key for authentication.
+        base_url: The base URL for the LLM API.
+        model: The model to use for the LLM API request.
+
+    Returns:
+        A dictionary parsed from the LLM's JSON response.
+        Returns an error dictionary if the response is not valid JSON.
+    """
+    try:
+        client = OpenAI(
+            api_key=api_key,
+            base_url=base_url
+        )
         
-    # Start OpenAI client
-    client = OpenAI(
-        api_key = api_key,
-        base_url = base_url
-    )
+        # We ask the model to respond in JSON mode for more reliable output
+        chat_completion = client.chat.completions.create(
+            messages=[
+                {"role": "system", "content": "You are a meticulous research assistant. Your task is to evaluate a research article's abstract based on a specific criterion and respond ONLY with a valid JSON object matching the requested format."},
+                {"role": "user", "content": prompt_string}
+            ],
+            model=model,
+            response_format={"type": "json_object"} # Use JSON mode for reliability
+        )
+        
+        response_content = chat_completion.choices[0].message.content
+        return json.loads(response_content)
+
+    except json.JSONDecodeError:
+        return {
+            "error": "Failed to decode JSON from LLM response.",
+            "raw_response": response_content
+        }
+    except Exception as e:
+        return {
+            "error": f"An API call error occurred: {e}"
+        }
     
-    prompt = "Input: A list containing [title, abstract, Covidence #]. Task: Determine the following for each article and output one CSV-formatted line with these columns: Covidence #, involves human participants in the sample (1/0/-1), involves persuasion as intervention (1/0/-1), persuasion is performed with LLM or AI usage in text generation (1/0/-1), persuasion relates to marketing or consumer behavior (1/0/-1). Persuasion is defined as an intentional, goal-directed, message-based process aimed at shaping, reinforcing, or changing human attitudes, beliefs, or behaviors. Use 1 if the criterion is clearly met, 0 if clearly not met, and -1 if uncertain based on the information provided. Return only the single CSV row. Do not include any explanation or extra text."+ str(article)
-    
-    # Get response
-    chat_completion = client.chat.completions.create(
-        messages=[{"role":"system","content":"You are a helpful assistant"},{"role":"user","content": prompt}],
-        model= model,
-    )
-  
-    # Print out the response
-    #for chunk in resp:
-        #print(chunk.choices[0].delta.content or "", end="")
-    
-    return chat_completion
