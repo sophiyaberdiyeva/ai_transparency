@@ -14,6 +14,18 @@ llm = pd.read_csv("data/llm_title_abstract_50.csv")
 
 human.columns = ['human_covidence_no', 'title', 'human_human_participants', 'human_involves_persuasion', 'human_persuasion_is_ai', 'human_is_theoretical', 'human_is_marketing', 'human_final_decision']
 
+for col in llm.columns:
+    if '.decision' in col:
+        llm[col] = llm[col].map({'Yes': 1, 'No': 0})
+        
+llm['final_decision'] = llm['final_decision'].map({'Include': 1, 'Exclude': 0})
+
+# Create logical_final_decision: 1 if all inclusion criteria are 1 and all exclusion criteria are 0
+ic_cols = [col for col in llm.columns if 'ic' in col and '.decision' in col]
+ec_cols = [col for col in llm.columns if 'ec' in col and '.decision' in col]
+llm['logical_final_decision'] = (llm[ic_cols].eq(1).all(axis=1) & llm[ec_cols].eq(0).all(axis=1)).astype(int)
+
+
 cm = confusion_matrix(human['human_final_decision'], llm['llm_final_decision'])
 fig, ax = plt.subplots()
 disp = ConfusionMatrixDisplay(confusion_matrix=cm)
