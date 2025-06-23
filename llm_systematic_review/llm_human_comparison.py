@@ -20,13 +20,21 @@ for col in llm.columns:
         
 llm['final_decision'] = llm['final_decision'].map({'Include': 1, 'Exclude': 0})
 
-# Create logical_final_decision: 1 if all inclusion criteria are 1 and all exclusion criteria are 0
-ic_cols = [col for col in llm.columns if 'ic' in col and '.decision' in col]
-ec_cols = [col for col in llm.columns if 'ec' in col and '.decision' in col]
-llm['logical_final_decision'] = (llm[ic_cols].eq(1).all(axis=1) & llm[ec_cols].eq(0).all(axis=1)).astype(int)
 
+llm.columns = ['covidence_number',
+               'final_decision',
+               'llm_ic_1_population.reasoning',
+               'llm_ic_1_population.decision',
+               'llm_ic_2_intervention.reasoning',
+               'llm_ic_2_intervention.decision',
+               'llm_ic_3_technology.reasoning',
+               'llm_ic_3_technology.decision',
+               'llm_ic_4_study_type.reasoning',
+               'llm_ic_4_study_type.decision',
+               'llm_ec_1_domain.reasoning',
+               'llm_ec_1_domain.decision']
 
-cm = confusion_matrix(human['human_final_decision'], llm['llm_final_decision'])
+cm = confusion_matrix(human['human_final_decision'], llm['final_decision'])
 fig, ax = plt.subplots()
 disp = ConfusionMatrixDisplay(confusion_matrix=cm)
 disp.plot(ax=ax)
@@ -34,7 +42,7 @@ ax.set_title("Confusion matrix for the final inclusion decision")
 plt.savefig('conf_matrices/final_decision.png')
 plt.show()
 
-cm_hp = confusion_matrix(human['human_human_participants'], llm['llm_human_participants'])
+cm_hp = confusion_matrix(human['human_human_participants'], llm['llm_ic_1_population.decision'])
 fig, ax = plt.subplots()
 disp = ConfusionMatrixDisplay(confusion_matrix=cm_hp)
 disp.plot(ax=ax)
@@ -42,7 +50,7 @@ ax.set_title("Confusion matrix for human participants' presence in the study")
 plt.savefig('conf_matrices/human_participants.png')
 plt.show()
 
-cm_ip = confusion_matrix(human['human_involves_persuasion'], llm['llm_involves_persuasion'])
+cm_ip = confusion_matrix(human['human_involves_persuasion'], llm['llm_ic_2_intervention.decision'])
 fig, ax = plt.subplots()
 disp = ConfusionMatrixDisplay(confusion_matrix=cm_ip)
 disp.plot(ax=ax)
@@ -50,7 +58,7 @@ ax.set_title("Confusion matrix for persuasion presence in the study")
 plt.savefig('conf_matrices/persuasion.png')
 plt.show()
 
-cm_aip = confusion_matrix(human['human_persuasion_is_ai'], llm['llm_persuasion_is_ai'])
+cm_aip = confusion_matrix(human['human_persuasion_is_ai'], llm['llm_ic_3_technology.decision'])
 fig, ax = plt.subplots()
 disp = ConfusionMatrixDisplay(confusion_matrix=cm_aip)
 disp.plot(ax=ax)
@@ -58,7 +66,15 @@ ax.set_title("Confusion matrix for AI persuasion detection")
 plt.savefig('conf_matrices/ai_persuasion.png')
 plt.show()
 
-cm_mar = confusion_matrix(human['human_is_marketing'], llm['llm_is_marketing'])
+cm_emp = confusion_matrix(~(human['human_is_theoretical']), llm['llm_ic_4_study_type.decision'])
+fig, ax = plt.subplots()
+disp = ConfusionMatrixDisplay(confusion_matrix=cm_emp)
+disp.plot(ax=ax)
+ax.set_title("Confusion matrix for empiciral studies detection")
+plt.savefig('conf_matrices/empirical_studies.png')
+plt.show()
+
+cm_mar = confusion_matrix(human['human_is_marketing'], llm['llm_ec_1_domain.decision'])
 fig, ax = plt.subplots()
 disp = ConfusionMatrixDisplay(confusion_matrix=cm_mar)
 disp.plot(ax=ax)
