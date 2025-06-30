@@ -1,5 +1,4 @@
 # Code written in co-authorship with Claude Sonnet 4
-
 import os
 import shutil
 from pathlib import Path
@@ -70,68 +69,54 @@ def process_zotero_exports(root_folder):
         else:
             # Process PDF
             pdf_name = file_path.stem  # filename without extension
+            original_pdf_path = file_path  # save reference to original path
             print(f"  - PDF found: {file_path.name}")
             
-            # Handle Cyrillic/non-ASCII characters in filename
-            success = False
-            
-            # Method 1: Try direct conversion first
             try:
+                # Create ASCII-only temporary filename
+                temp_name = f"temp_pdf_{subdir.name}.pdf"
+                temp_pdf_path = subdir / temp_name
+                
+                # Rename original file temporarily to ASCII-only name
+                original_pdf_path.rename(temp_pdf_path)
+                print(f"  - Temporarily renamed to: {temp_name}")
+                
+                # Convert with ASCII filename, but use original name for output
                 convert_from_path(
-                    str(file_path),
+                    str(temp_pdf_path),
                     dpi=500,
                     output_folder=str(subdir),
                     fmt='png',
                     output_file=f'{pdf_name}_'
                 )
+                
+                # Rename back to original
+                temp_pdf_path.rename(original_pdf_path)
+                print(f"  - Renamed back to original name")
+                
                 print(f"  - Successfully converted to PNG: {pdf_name}")
                 pdfs_converted += 1
-                success = True
                 
             except Exception as e:
-                print(f"  - Direct conversion failed: {e}")
-            
-            # Method 2: Rename file temporarily if direct method failed
-            if not success:
+                print(f"  - Error converting PDF: {e}")
+                # Try to rename back if something went wrong
                 try:
-                    # Create ASCII-only temporary filename
-                    temp_name = f"temp_pdf_{subdir.name}.pdf"
-                    temp_pdf_path = subdir / temp_name
-                    
-                    # Rename original file temporarily
-                    file_path.rename(temp_pdf_path)
-                    
-                    # Convert with ASCII filename, but use original name for output
-                    convert_from_path(
-                        str(temp_pdf_path),
-                        dpi=500,
-                        output_folder=str(subdir),
-                        fmt='png',
-                        output_file=f'{pdf_name}_'
-                    )
-                    
-                    # Rename back to original
-                    temp_pdf_path.rename(file_path)
-                    
-                    print(f"  - Successfully converted to PNG via temp rename: {pdf_name}")
-                    pdfs_converted += 1
-                    
-                except Exception as e2:
-                    print(f"  - Temp rename conversion also failed: {e2}")
-                    # Try to rename back if something went wrong
-                    try:
-                        if temp_pdf_path.exists():
-                            temp_pdf_path.rename(file_path)
-                    except:
-                        pass
+                    if temp_pdf_path.exists():
+                        temp_pdf_path.rename(original_pdf_path)
+                        print(f"  - Restored original filename after error")
+                except Exception as restore_error:
+                    print(f"  - Failed to restore original filename: {restore_error}")
     
     print(f"\n=== Summary ===")
     print(f"Folders removed (non-PDF): {folders_removed}")
     print(f"PDFs converted to PNG: {pdfs_converted}")
 
+
 def main():
-    # Example usage
-    root_folder = input("Enter the path to your Zotero export folder: ").strip()
+    # Usage from user input
+    #root_folder = input("Enter the path to your Zotero export 'PDF' folder: ").strip()
+    
+    root_folder = 'data/test_conversion/PDF'
     
     # Remove quotes if user copied path with quotes
     root_folder = root_folder.strip('"\'')
