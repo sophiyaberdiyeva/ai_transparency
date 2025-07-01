@@ -49,8 +49,8 @@ def extract_page_number(filename):
 
 def get_pdf_base_name(png_filename):
     """Extract the base name of the PDF from PNG filename."""
-    # Remove the page number part (*0001-XX) and .png extension
-    base_name = re.sub(r'\*\d+-\d+\.png$', '', png_filename)
+    # Remove the page number part (_0001-XX) and .png extension
+    base_name = re.sub(r'_\d+-\d+\.png$', '', png_filename)
     return base_name
 
 def process_folders(root_directory, ocr_function, model, processor, max_new_tokens=4096):
