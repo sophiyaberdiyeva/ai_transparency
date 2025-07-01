@@ -114,14 +114,12 @@ def process_folders(root_directory, ocr_function, model, processor, max_new_toke
             output_path = folder_path / output_filename
             
             # Save OCR results to text file
-            try:
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    f.write("\n".join(ocr_results))
-                
-                print(f"  Saved OCR results to: {output_filename}")
-                
-            except Exception as e:
-                print(f"  Error saving OCR results for {pdf_base}: {str(e)}")
+
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write("\n".join(ocr_results))
+            
+            print(f"  Saved OCR results to: {output_filename}")
+
 
 def main():
     """
@@ -140,11 +138,8 @@ def main():
     
     processor = AutoProcessor.from_pretrained(model_path)
 
-    try:
-        process_folders(root_directory, ocr_page_with_nanonets_s, model, processor)
-        print("OCR processing completed successfully!")
-    except Exception as e:
-        print(f"Error during processing: {str(e)}")
+    process_folders(root_directory, ocr_page_with_nanonets_s, model, processor)
+    print("OCR processing completed successfully!")\
 
 if __name__ == "__main__":
     main()

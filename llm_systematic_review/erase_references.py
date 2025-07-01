@@ -128,10 +128,6 @@ def process_article_folders(root_directory):
     """
     root_path = Path(root_directory)
     
-    if not root_path.exists():
-        print(f"Directory {root_directory} does not exist!")
-        return
-    
     processed_count = 0
     modified_count = 0
     
@@ -150,11 +146,6 @@ def process_article_folders(root_directory):
                     modified_count += 1
                 processed_count += 1
                 
-            elif len(ocr_files) > 1:
-                print(f"Warning: Multiple OCR files found in {folder_path.name}: {[f.name for f in ocr_files]}")
-            else:
-                print(f"Warning: No OCR file found in {folder_path.name}")
-    
     print(f"\n=== Processing Complete ===")
     print(f"Folders processed: {processed_count}")
     print(f"Files modified: {modified_count}")
