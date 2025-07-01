@@ -163,24 +163,7 @@ def main():
     """
     Main function to run the script.
     """
-    # Specify your root directory here
-    root_directory = input("Enter the path to your articles directory: ").strip()
-    
-    # Remove quotes if present
-    root_directory = root_directory.strip('"\'')
-    
-    if not root_directory:
-        print("No directory specified!")
-        return
-    
-    print(f"Processing articles in: {root_directory}")
-    print("This will modify the OCR text files by removing References sections.")
-    
-    # Ask for confirmation
-    confirm = input("Do you want to continue? (y/n): ").strip().lower()
-    if confirm not in ['y', 'yes']:
-        print("Operation cancelled.")
-        return
+    root_directory = 'data/test_conversion/PDF'
     
     process_article_folders(root_directory)
 
