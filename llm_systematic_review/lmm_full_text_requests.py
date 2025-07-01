@@ -19,8 +19,8 @@ results = []
 for _, article in articles.iterrows():
     title, abstract, covidence_number = article.tolist()
 
-    prompt_template = PromptTemplates.PROMPT_TITLE_ABSTRACT
-    prompt_string = create_llm_abs_title_prompt_string(prompt_template, title, abstract, covidence_number)
+    prompt_template = PromptTemplates.PROMPT_FULL_TEXT
+    prompt_string = create_llm_full_text_prompt_string(prompt_template, covidence_number, full_text)
     llm_response = get_llm_screening_decision(prompt_string, api_key, base_url, model)
     time.sleep(1)
 

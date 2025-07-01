@@ -3,7 +3,7 @@ from openai import OpenAI
 from openai.types.chat import ChatCompletionChunk 
 import json
 
-def create_llm_prompt_string(prompt_template: Dict, title: str, abstract: str, covidence_number: str) -> str:
+def create_llm_abs_title_prompt_string(prompt_template: Dict, title: str, abstract: str, covidence_number: str) -> str:
     """
     Fills a prompt template with article-specific information.
 
@@ -22,6 +22,27 @@ def create_llm_prompt_string(prompt_template: Dict, title: str, abstract: str, c
     filled_prompt["input_article"]["title"] = title
     filled_prompt["input_article"]["abstract"] = abstract
     filled_prompt["input_article"]["covidence_number"] = covidence_number
+    
+    return json.dumps(filled_prompt, indent=2)
+
+def create_llm_full_text_prompt_string(prompt_template: Dict, covidence_number: str, full_text: str) -> str:
+    """
+    Fills a prompt template with article-specific information.
+
+    Args:
+        prompt_template: A dictionary representing the base prompt structure.
+        covidence_number: Unique number of article in Covidence
+        full_text: Full text of article except for References section
+
+    Returns:
+        A JSON-formatted string to be sent to the LLM.
+    """
+    # Deep copy the template to avoid modifying the original
+    filled_prompt = json.loads(json.dumps(prompt_template))
+    
+    # Inject the specific article data into the prompt
+    filled_prompt["input_article"]["covidence_number"] = covidence_number
+    filled_prompt["input_article"]["full_text"] = full_text
     
     return json.dumps(filled_prompt, indent=2)
 
