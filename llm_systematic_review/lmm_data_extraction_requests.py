@@ -8,8 +8,15 @@ import os
 import re
 from pathlib import Path
 
-articles = pd.read_csv("data/merged_zotero_covidence_data_extraction.csv")
-articles = articles.head(1)
+extr_covidence_df = pd.read_csv("data/review_581959_included_csv_20250628001529.csv") #articles exported from covidence - those left after full text screening
+full_text_df = pd.read_csv("data/merged_zotero_covidence_full_text.csv") #old full file with articles with paths for full text screening
+
+# Filtering the full_text_df to only include articles that are in extr_covidence_df
+filtered_df = full_text_df[full_text_df['Covidence #'].isin(extr_covidence_df['Covidence #'])]
+
+# Saving the filtered dataframe to a CSV file
+filtered_df.to_csv("data/merged_zotero_covidence_data_extraction.csv", index=False)
+filtered_df = filtered_df.head(1)
 
 # API configuration (except for api_key)
 base_url = "https://chat-ai.academiccloud.de/v1"
@@ -19,7 +26,7 @@ model = "llama-3.3-70b-instruct"
 
 results_1 = []
 
-for idx, row in articles.iterrows():
+for idx, row in filtered_df.iterrows():
     covidence_number = row['Covidence #']
     path = row['path']
     with open(path, 'r', encoding='utf-8') as f:
@@ -130,6 +137,9 @@ pt_3_df = pd.read_csv('llm_data_extraction_pt_3.csv', dtype={'covidence_number':
 
 merged_df = pt_1_df.merge(pt_2_df, on="covidence_number", how="outer", suffixes=('_pt1', '_pt2'))
 merged_df = merged_df.merge(pt_3_df, on="covidence_number", how="outer", suffixes=('', '_pt3'))
+
+# Join with the original filtered DataFrame to include paths and other metadata
+merged_df = merged_df.merge(filtered_df, left_on='covidence_number', right_on='Covidence #', how='left')
 
 # Save the merged DataFrame
 merged_df.to_csv("data/llm_data_extraction_all.csv", index=False)
