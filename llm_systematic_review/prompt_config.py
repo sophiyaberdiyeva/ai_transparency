@@ -144,7 +144,7 @@ class PromptTemplates:
     }
     }
     
-    PROMPT_EXTRACTION_PT_1_TEXT: Dict[str, Any] ={
+    PROMPT_EXTRACTION_PT_1: Dict[str, Any] ={
     "role": "You are an expert data extractor tasked with processing scientific articles for a systematic review.",
     "task_definition": "Given the full text of a scientific article and its Covidence number, extract specific data points and format them as a single line of comma-separated values (CSV) according to the specified column definitions and order. Ensure concise and accurate extraction. If information is missing for a specific field, use 'Not Reported' as instructed in the item's description.",
     "data_extraction_items": [
@@ -214,7 +214,7 @@ class PromptTemplates:
     }
 }
     
-    PROMPT_EXTRACTION_PT_2_TEXT: Dict[str, Any] ={
+    PROMPT_EXTRACTION_PT_2: Dict[str, Any] ={
     "role": "You are an expert data extractor tasked with processing scientific articles for a systematic review.",
     "task_definition": "Given the full text of a scientific article and its Covidence number, extract specific data points related to experimental prompts and instructions. The output must be a single line of comma-separated values (CSV) in the exact order specified. Be concise and accurate, using 'Not Reported' where information is not found.",
     "data_extraction_items": [
@@ -274,7 +274,7 @@ class PromptTemplates:
     }
 }
     
-    PROMPT_EXTRACTION_PT_3_TEXT: Dict[str, Any] ={
+    PROMPT_EXTRACTION_PT_3: Dict[str, Any] ={
     "role": "You are an expert data extractor tasked with processing scientific articles for a systematic review.",
     "task_definition": "Given the full text of a scientific article and its Covidence number, extract specific data points related to debriefing, methodology, and ethical considerations. The output must be a single line of comma-separated values (CSV) in the exact order specified. Be concise and accurate, using 'Not Reported' where information is missing or not stated in the article.",
     "data_extraction_items": [
