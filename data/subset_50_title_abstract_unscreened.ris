@@ -1,0 +1,787 @@
+TY  - JOUR
+TI  - SecuBot, a teacher in appearance: How social chatbots can influence people
+AU  - Saleilles, J.
+AU  - Aïmeur, E.
+AB  - Users nowadays seem to be more aware of the dangers of giving their data to other entities. However, people are easily influenced and can still provide personal data, leading to fraud, data theft, or worse. Extending social chatbots to influence people can prove efficient as they can act as malicious friends. These conversational agents can be used in various domains such as news, e-commerce, or therapy. They can come with multiple personalities to accomplish different purposes. However, using phrases that may be offensive or present an excessive amount of anthropomorphic traits can, in some cases, cause harm to the user. This paper presents the realization of a prototype of an educational chatbot that uses different social engineering methods in an attempt to retrieve sensitive information from users. © 2021 Copyright for this paper by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0).
+PY  - 2021
+JO  - CEUR Workshop Proceedings
+T2  - CEUR Workshop Proceedings
+VL  - 2942
+SP  - 31-49
+N1  - Covidence #: #5667
+N1  - Study: Saleilles 2021
+ER  - 
+
+TY  - JOUR
+TI  - Modelling dialogues in court using a gradual argumentation model: A case study
+AU  - Wei, B.
+AU  - Huang, J.
+AB  - This paper presents a formal model of dialogues in court using a gradual argumentation model. The gradual argumentation model provides computations for the strengths of arguments in an argumentation framework and the degrees of justification of arguments in a gradual argumentation se- mantic. In dialogues in court the adjudicator plays a neutral or active role to decide about burdens and standards of proof in the common law system or in the civil law system. The notions of strength and degree of justification are applied to define the corresponding standards of proof which are suggested as the measurements to assess the burden of production in the argumentation phase and the burden of persuasion in the decision phase. With application of the gradual argumentation model, this paper studies a formal model of dialogues in court. Specifically several new moves for the adjudicator are given within an updated communication language, protocol rules are defined for the adjudicator in accordance with the up- dated communication language are defined, a new notion of Record of commitments (RC) for the adjudicator is added in order to record qualified commitments, and the adjudicator's options in the decision phase are discussed. This paper tests the new model through a criminal case study. © 2015 ACM.
+PY  - 2015
+JO  - Proceedings of the International Conference on Artificial Intelligence and Law
+T2  - Proceedings of the International Conference on Artificial Intelligence and Law
+VL  - 08-12-June-2015
+SP  - 138-147
+DO  - 10.1145/2746090.2746104
+N1  - Covidence #: #6248
+N1  - Study: Wei 2015
+ER  - 
+
+TY  - JOUR
+TI  - Supporting Adolescent Engagement with Artificial Intelligence-Driven Digital Health Behavior Change Interventions
+AU  - Giovanelli, A.
+AU  - Rowe, J.
+AU  - Taylor, M.
+AU  - Berna, M.
+AU  - Tebb, K.P.
+AU  - Penilla, C.
+AU  - Pugatch, M.
+AU  - Lester, J.
+AU  - Ozer, E.M.
+AB  - Understanding and optimizing adolescent-specific engagement with behavior change interventions will open doors for providers to promote healthy changes in an age group that is simultaneously difficult to engage and especially important to affect. For digital interventions, there is untapped potential in combining the vastness of process-level data with the analytical power of artificial intelligence (AI) to understand not only how adolescents engage but also how to improve upon interventions with the goal of increasing engagement and, ultimately, efficacy. Rooted in the example of the INSPIRE narrative-centered digital health behavior change intervention (DHBCI) for adolescent risky behaviors around alcohol use, we propose a framework for harnessing AI to accomplish 4 goals that are pertinent to health care providers and software developers alike: measurement of adolescent engagement, modeling of adolescent engagement, optimization of current interventions, and generation of novel interventions. Operationalization of this framework with youths must be situated in the ethical use of this technology, and we have outlined the potential pitfalls of AI with particular attention to privacy concerns for adolescents. Given how recently AI advances have opened up these possibilities in this field, the opportunities for further investigation are plenty. © Alison Giovanelli, Jonathan Rowe, Madelynn Taylor, Mark Berna, Kathleen P Tebb, Carlos Penilla, Marianne Pugatch, James Lester, Elizabeth M Ozer. Originally published in the Journal of Medical Internet Research (https://www.jmir.org), 24.05.2023. This is an open-access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on https://www.jmir.org/, as well as this copyright and license information must be included.
+PY  - 2023
+JO  - Journal of Medical Internet Research
+T2  - Journal of Medical Internet Research
+VL  - 25
+DO  - 10.2196/40306
+N1  - Covidence #: #5342
+N1  - Study: Giovanelli 2023
+ER  - 
+
+TY  - JOUR
+TI  - Be Persuasive! Automatic Transformation of Virtual Agent’s Head and Facial Behavior
+AU  - Cherni, A.
+AU  - Bertrand, R.
+AU  - Ochs, M.
+AB  - The persuasiveness of a virtual agent refers to its ability to influence, persuade, or motivate users to take specific actions or adopt certain attitudes or beliefs. Virtual agents can use its multimodal capabilities, including non-verbal cues to enhance their persuasiveness. In this paper, we present a new tool called THRUST (from neuTral Human face to peRsUaSive virTual face) to automatically generate the head movements and facial expressions of a persuasive virtual character. This tool is based on a machine learning approach from a human videos corpus to identify the non-verbal persuasive cues. A convolution-based model then transforms neutral non-verbal behavior to a persuasive non-verbal behavior simulated on a virtual face. Videos generated by the tool have been evaluated through a subjective perceptive study with about 90 participants. The results show that the virtual agent’s head and facial behaviors generated by the THRUST tool are perceived as persuasive, thus validating the proposed approach. © 2024, Science and Technology Publications, Lda. All rights reserved.
+PY  - 2024
+JO  - International Conference on Agents and Artificial Intelligence
+T2  - International Conference on Agents and Artificial Intelligence
+VL  - 1
+SP  - 359-366
+DO  - 10.5220/0012429700003636
+N1  - Covidence #: #5032
+N1  - Study: Cherni 2024
+ER  - 
+
+TY  - JOUR
+TI  - A Study of Three Influencer Archetypes for the Control of Opinion Spread in Time-Varying Social Networks
+AU  - Debuse, M.
+AU  - Warnick, S.
+AB  - In this work we consider the impact of information spread in time-varying social networks, where agents request to follow other agents with aligned opinions while dropping ties to neighbors whose posts are too dissimilar to their own views. Opinion control and rhetorical influence has a very long history, employing various methods including education, persuasion, propaganda, marketing, and manipulation through mis-, dis-, and mal-information. The automation of opinion controllers, however, has only recently become easily deployable at a wide scale, with the advent of large language models (LLMs) and generative AI that can translate the quantified commands from opinion controllers into actual content with the appropriate nuance. Automated agents in social networks can be deployed for various purposes, such as breaking up echo chambers, bridging valuable new connections between agents, or shaping the opinions of a target population-and all of these raise important ethical concerns that deserve serious attention and thoughtful discussion and debate. This paper attempts to contribute to this discussion by considering three archetypal influencing styles observed by human drivers in these settings, comparing and contrasting the impact of these different control methods on the opinions of agents in the network. We will demonstrate the efficacy of current generative AI for generating nuanced content consistent with the command signal from automatic opinion controllers like these, and we will report on frameworks for approaching the relevant ethical considerations. © 2024 IEEE.
+PY  - 2024
+JO  - Proceedings of the IEEE Conference on Decision and Control
+T2  - Proceedings of the IEEE Conference on Decision and Control
+SP  - 5310-5317
+DO  - 10.1109/CDC56724.2024.10885979
+N1  - Covidence #: #4994
+N1  - Study: Debuse 2024
+ER  - 
+
+TY  - JOUR
+TI  - Erratum: Using Wake-Up Tasks for Morning Behavior Change: Development and Usability Study (JMIR Form Res (2022) 6:9 (e39497) DOI: 10.2196/39497)
+AU  - Oh, K.T.
+AU  - Ko, J.
+AU  - Shin, J.
+AU  - Ko, M.
+AB  - In “Using Wake-Up Tasks for Morning Behavior Change: Development and Usability Study” (JMIR Form Res 2022;6(9):e39497) the authors noted two errors. The affiliation of the author Jisu Ko was incorrectly mentioned as the following: Department of Human-Computer Interaction. This has been corrected to: Department of Applied Artificial Intelligence. Under “Acknowledgments” the original text read: This work was supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (Ministry of Science and ICT) (grant RS-2022-00155885, Artificial Intelligence Convergence Innovation Human Resources Development) and Hanyang University ERICA. It has been replaced by the following: This work was supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (Ministry of Science and ICT) (No. RS-2022-00155885, Artificial Intelligence Convergence Innovation Human Resources Development (Hanyang University ERICA)). The correction will appear in the online version of the paper on the JMIR Publications website on October 3, 2022, together with the publication of this correction notice. Because this was made after submission to PubMed, PubMed Central, and other full-text repositories, the corrected article has also been resubmitted to those repositories. ©Kyue Taek Oh, Jisu Ko, Jaemyung Shin, Minsam Ko.
+PY  - 2022
+JO  - JMIR Formative Research
+T2  - JMIR Formative Research
+VL  - 6
+IS  - 10
+DO  - 10.2196/42926
+N1  - Covidence #: #5441
+N1  - Study: Oh 2022
+ER  - 
+
+TY  - JOUR
+TI  - A popularization of curation service for dermatological condition in Republic of Korea
+AU  - Park, E.
+AU  - Kwon, K.H.
+AB  - Background: Consumer and advanced consumption culture in modern society is an era that focuses on individual personality and value, and “my own customized products”, or customized marketing strategies, are actively being developed throughout the industry. Recently, IT technologies that can support personalized services such as artificial intelligence, ubiquitous systems, and marketing automation have been recognized for their potential, directly or indirectly affecting distribution industries affected by personal consumption culture. Accordingly, customized products or services, i.e., customization, are attracting attention as an effective methodology to cope with such market changes. Objectives: Among the necessities used by modern women, cosmetics account for an endless interest in beauty and maintaining physical and mental health, and as the cosmetics market expands, it is considered that the cosmetics industry needs a clearer and in-depth study on the cosmetics submarket to satisfy consumers' diverse needs. Methods: This review paper is a literature review, and a narrative review approach has been used for this study. A total of 300 to 400 references were selected using representative journal search websites such as PubMed, Google Scholar, Scopus, ResearchGate, LitCovid, DBPia, and RISS, of which a total of 42 papers were selected in the final stage based on 2013 to 2022 using PRISMA flow diagram. Results: This study suggested to indicate the changes in the cosmetics market due to the emergence of cosmetics curation services after the coronavirus disease-19 pandemic, advanced changes in consumer purchase patterns following the 4th Industrial Revolution, and significant future prospects of cosmetics curation services. Conclusion: As the beauty and cosmetology industry is expected to develop in the future, it will grow as a centerpiece of the beauty industry and symbolizes nationalized cultural pride. Therefore, this review article will be continuing to promote customization as a premium beauty service for dermatological condition in Republic of Korea through corporate analysis. © 2022 Wiley Periodicals LLC.
+PY  - 2022
+JO  - Journal of Cosmetic Dermatology
+T2  - Journal of Cosmetic Dermatology
+VL  - 21
+IS  - 12
+SP  - 6594-6604
+DO  - 10.1111/jocd.15340
+N1  - Covidence #: #5529
+N1  - Study: Park 2022
+ER  - 
+
+TY  - JOUR
+TI  - EREBOTS: Privacy-compliant agent-based platform for multi-scenario personalized health-assistant chatbots
+AU  - Calvaresi, D.
+AU  - Calbimonte, J.-P.
+AU  - Siboni, E.
+AU  - Eggenschwiler, S.
+AU  - Manzo, G.
+AU  - Hilfiker, R.
+AU  - Schumacher, M.
+AB  - Context. Asynchronous messaging is increasingly used to support human–machine inter-actions, generally implemented through chatbots. Such virtual entities assist the users in activities of different kinds (e.g., work, leisure, and health-related) and are becoming ingrained into humans’ habits due to factors including (i) the availability of mobile devices such as smartphones and tablets, (ii) the increasingly engaging nature of chatbot interactions, (iii) the release of dedicated APIs from messaging platforms, and (iv) increasingly complex AI-based mechanisms to power the bots’ behav-iors. Nevertheless, most of the modern chatbots rely on state machines (implementing conversational rules) and one-fits-all approaches, neglecting personalization, data-stream privacy management, multi-topic management/interconnection, and multimodal interactions. Objective. This work ad-dresses the challenges above through an agent-based framework for chatbot development named EREBOTS. Methods. The foundations of the framework are based on the implementation of (i) multi-front-end connectors and interfaces (i.e., Telegram, dedicated App, and web interface), (ii) enabling the configuration of multi-scenario behaviors (i.e., preventive physical conditioning, smoking cessa-tion, and support for breast-cancer survivors), (iii) online learning, (iv) personalized conversations and recommendations (i.e., mood boost, anti-craving persuasion, and balance-preserving physical exercises), and (v) responsive multi-device monitoring interface (i.e., doctor and admin). Results. EREBOTS has been tested in the context of physical balance preservation in social confinement times (due to the ongoing pandemic). Thirteen individuals characterized by diverse age, gender, and country distribution have actively participated in the experimentation, reporting advancements in the physical balance and overall satisfaction of the interaction and exercises’ variety they have been proposed. © 2021 by the authors. Licensee MDPI, Basel, Switzerland.
+PY  - 2021
+JO  - Electronics (Switzerland)
+T2  - Electronics (Switzerland)
+VL  - 10
+IS  - 6
+SP  - 1-30
+DO  - 10.3390/electronics10060666
+N1  - Covidence #: #5670
+N1  - Study: Calvaresi 2021
+ER  - 
+
+TY  - JOUR
+TI  - Artificial Intelligence, Drug Development and Frameworks: An Opportunity to Enhance Understanding
+AU  - Beninger, P.
+PY  - 2024
+JO  - Clinical Therapeutics
+T2  - Clinical Therapeutics
+VL  - 46
+IS  - 8
+SP  - 595-596
+DO  - 10.1016/j.clinthera.2024.07.005
+N1  - Covidence #: #4831
+N1  - Study: Beninger 2024
+ER  - 
+
+TY  - JOUR
+TI  - Using Health Chatbots for Behavior Change: A Mapping Study
+AU  - Pereira, J.
+AU  - Díaz, Ó.
+AB  - This study conducts a mapping study to survey the landscape of health chatbots along three research questions: What illnesses are chatbots tackling? What patient competences are chatbots aimed at? Which chatbot technical enablers are of most interest in the health domain? We identify 30 articles related to health chatbots from 2014 to 2018. We analyze the selected articles qualitatively and extract a triplet <technicalEnablers, competence, illness> for each of them. This data serves to provide a first overview of chatbot-mediated behavior change on the health domain. Main insights include: nutritional disorders and neurological disorders as the main illness areas being tackled; “affect” as the human competence most pursued by chatbots to attain change behavior; and “personalization” and “consumability” as the most appreciated technical enablers. On the other hand, main limitations include lack of adherence to good practices to case-study reporting, and a deeper look at the broader sociological implications brought by this technology. © 2019, Springer Science+Business Media, LLC, part of Springer Nature.
+PY  - 2019
+JO  - Journal of Medical Systems
+T2  - Journal of Medical Systems
+VL  - 43
+IS  - 5
+DO  - 10.1007/s10916-019-1237-1
+N1  - Covidence #: #5975
+N1  - Study: Pereira 2019
+ER  - 
+
+TY  - JOUR
+TI  - "The multi business model innovation brain"
+AU  - Lindgren, P.
+AB  - Businesses have until today put most emphasis and practice on human leadership of Business Models and Multi Business Model Innovation. However, advanced technologies integrated in Business Models and Multi Business Model Innovation processes introduce a new leadership and management agenda. Fast development of sensorsoring, persuasive and virtual Business Models will soon be operating autonomously primarily by machines. Businesses will be able to, build Multi Business Model Innovation competence and advanced Multi Business Models Innovation Brains capable to innovated and operate Business Models in even different types of Business Model Ecosystems. This will change the classical way of how business performed leadership of Business Models, operated and innovated Business Models. It will also open up to new Multi Business Model Innovation potential and create a new generation of Business Models, new practice of Multi Business Model Innovation. The paper is a first attempt to propose a conceptual Multi Business Model Brain and How it could operate supported by advance wireless and sensor technologies. The paper discuss how the Multi Business Model Innovation Brain can be evolved and how artificial intelligence technologies, deep learning, persuasive technologies, Multi Business Model Innovation pattern analysis and archetypes will be important supporting tools to the Multi Business Model Innovation Brain. © 2021 River Publishers. All rights reserved.
+PY  - 2020
+JO  - International Symposium on 5G & Beyond for Rural Upliftment 2020: In twinning activity between BIT Sindri & IIT(ISM) Dhanbad Jointly with the IEEE 5G summit and 35th GISFI Standardization Series Meeting (GSSM)
+T2  - International Symposium on 5G & Beyond for Rural Upliftment 2020: In twinning activity between BIT Sindri & IIT(ISM) Dhanbad Jointly with the IEEE 5G summit and 35th GISFI Standardization Series Meeting (GSSM)
+SP  - 170-186
+N1  - Covidence #: #5904
+N1  - Study: Lindgren 2020
+ER  - 
+
+TY  - JOUR
+TI  - It is only for your own good, or is it? Ethical considerations for designing ethically conscious persuasive information systems
+AU  - Benner, D.
+AU  - Schöbel, S.
+AU  - Janson, A.
+AB  - Persuasive designs, including gamification and digital nudging, have become well renowned during the last years and have been implemented successfully across different sectors including education, e-health, e-governance, e-finance and general information systems. In this regard, persuasive design can support desirable changes in attitude and behavior of users in order to achieve their own goals. However, such persuasive influence on individuals raises ethical questions as persuasive designs can impair the autonomy of users or persuade the user towards goals of a third party and hence lead to unethical decision-making processes. In human-computer interaction this is especially significant with the advent of advanced artificial intelligence that can emulate human behavior and thus bring new dynamics into play. Therefore, we conduct a systematic literature analysis with the goal to compile an overview of ethical considerations for persuasive system design, derive potential guidelines for ethical persuasive designs and shed light on potential research gaps. © AMCIS 2021.
+PY  - 2021
+JO  - 27th Annual Americas Conference on Information Systems, AMCIS 2021
+T2  - 27th Annual Americas Conference on Information Systems, AMCIS 2021
+N1  - Covidence #: #5818
+N1  - Study: Benner 2021
+ER  - 
+
+TY  - JOUR
+TI  - Persuasion meets AI: Ethical considerations for the design of social engineering countermeasures
+AU  - Díaz Ferreyra, N.E.
+AU  - Aímeur, E.
+AU  - Hage, H.
+AU  - Heisel, M.
+AU  - Van Hoogstraten, C.G.
+AB  - Privacy in Social Network Sites (SNSs) like Facebook or Instagram is closely related to people's selfdisclosure decisions and their ability to foresee the consequences of sharing personal information with large and diverse audiences. Nonetheless, online privacy decisions are often based on spurious risk judgements that make people liable to reveal sensitive data to untrusted recipients and become victims of social engineering attacks. Artificial Intelligence (AI) in combination with persuasive mechanisms like nudging is a promising approach for promoting preventative privacy behaviour among the users of SNSs. Nevertheless, combining behavioural interventions with high levels of personalization can be a potential threat to people's agency and autonomy even when applied to the design of social engineering countermeasures. This paper elaborates on the ethical challenges that nudging mechanisms can introduce to the development of AI-based countermeasures, particularly to those addressing unsafe self-disclosure practices in SNSs. Overall, it endorses the elaboration of personalized risk awareness solutions as i) an ethical approach to counteract social engineering, and ii) as an effective means for promoting reflective privacy decisions.  Copyright © 2020 by SCITEPRESS - Science and Technology Publications, Lda. All rights reserved.
+PY  - 2020
+JO  - IC3K 2020 - Proceedings of the 12th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management
+T2  - IC3K 2020 - Proceedings of the 12th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management
+VL  - 3
+SP  - 204-211
+N1  - Covidence #: #5926
+N1  - Study: DíazFerreyra 2020
+ER  - 
+
+TY  - JOUR
+TI  - Persuasion and Incentives Through the Lens of Duality
+AU  - Dughmi, S.
+AU  - Niazadeh, R.
+AU  - Psomas, A.
+AU  - Weinberg, S.M.
+AB  - Lagrangian duality underlies both classical and modern mechanism design. In particular, the dual perspective often permits simple and detail-free characterizations of optimal and approximately optimal mechanisms. This paper applies this same methodology to a close cousin of traditional mechanism design, one which shares conceptual and technical elements with its more mature relative: the burgeoning field of persuasion. The dual perspective permits us to analyze optimal persuasion schemes both in settings which have been analyzed in prior work, as well as for natural generalizations which we are the first to explore in depth. Most notably, we permit combining persuasion policies with payments, which serve to augment the persuasion power of the scheme. In both single and multi-receiver settings, as well as under a variety of constraints on payments, we employ duality to obtain structural insights, as well as tractable and simple characterizations of optimal policies. © 2019, Springer Nature Switzerland AG.
+PY  - 2019
+JO  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+VL  - 11920 LNCS
+SP  - 142-155
+DO  - 10.1007/978-3-030-35389-6_11
+N1  - Covidence #: #5947
+N1  - Study: Dughmi 2019
+ER  - 
+
+TY  - JOUR
+TI  - Targeting Key Risk Factors for Cardiovascular Disease in At-Risk Individuals: Developing a Digital, Personalized, and Real-Time Intervention to Facilitate Smoking Cessation and Physical Activity
+AU  - Versluis, A.
+AU  - Penfornis, K.M.
+AU  - van der Burg, S.A.
+AU  - Scheltinga, B.L.
+AU  - van Vliet, M.H.M.
+AU  - Albers, N.
+AU  - Meijer, E.
+AB  - Health care is under pressure due to an aging population with an increasing prevalence of chronic diseases, including cardiovascular disease. Smoking and physical inactivity are 2 key preventable risk factors for cardiovascular disease. Yet, as with most health behaviors, they are difficult to change. In the interdisciplinary Perfect Fit project, scientists from different fields join forces to develop an evidence-based virtual coach (VC) that supports smokers in quitting smoking and increasing their physical activity. In this Viewpoint paper, intervention content, design, and implementation, as well as lessons learned, are presented to support other research groups working on similar projects. A total of 6 different approaches were used and combined to support the development of the Perfect Fit VC. The approaches used are (1) literature reviews, (2) empirical studies, (3) collaboration with end users, (4) content and technical development sprints, (5) interdisciplinary collaboration, and (6) iterative proof-of-concept implementation. The Perfect Fit intervention integrates evidence-based behavior change techniques with new techniques focused on identity change, big data science, sensor technology, and personalized real-time coaching. Intervention content of the virtual coaching matches the individual needs of the end users. Lessons learned include ways to optimally implement and tailor interactions with the VC (eg, clearly explain why the user is asked for input and tailor the timing and frequency of the intervention components). Concerning the development process, lessons learned include strategies for effective interdisciplinary collaboration and technical development (eg, finding a good balance between end users’ wishes and legal possibilities). The Perfect Fit development process was collaborative, iterative, and challenging at times. Our experiences and lessons learned can inspire and benefit others. Advanced, evidence-based digital interventions, such as Perfect Fit, can contribute to a healthy society while alleviating health care burden. ©Anke Versluis, Kristell M Penfornis, Sven A van der Burg, Bouke L Scheltinga, Milon H M van Vliet, Nele Albers, Eline Meijer.
+PY  - 2024
+JO  - JMIR Pediatrics and Parenting
+T2  - JMIR Pediatrics and Parenting
+VL  - 8
+DO  - 10.2196/47730
+N1  - Covidence #: #5067
+N1  - Study: Versluis 2024
+ER  - 
+
+TY  - JOUR
+TI  - IITK at SemEval-2024 Task 4: Hierarchical Embeddings for Detection of Persuasion Techniques in Memes
+AU  - Chikoti, S.
+AU  - Mehta, S.
+AU  - Modi, A.
+AB  - Memes are one of the most popular types of content used in an online disinformation campaign. They are primarily effective on social media platforms since they can easily reach many users. Memes in a disinformation campaign achieve their goal of influencing the users through several rhetorical and psychological techniques, such as causal oversimplification, name-calling, and smear. The SemEval 2024 Task 4 Multilingual Detection of Persuasion Technique in Memes on identifying such techniques in the memes is divided across three sub-tasks: (1) Hierarchical multi-label classification using only textual content of the meme, (2) Hierarchical multi-label classification using both, textual and visual content of the meme and (3) Binary classification of whether the meme contains a persuasion technique or not using it’s textual and visual content. This paper proposes an ensemble of Class Definition Prediction (CDP) and hyperbolic embeddings-based approaches for this task. We enhance meme classification accuracy and comprehensiveness by integrating HypEmo’s hierarchical label embeddings (Chen et al., 2023) and a multi-task learning framework for emotion prediction. We achieve a hierarchical F1-score of 0.60, 0.67, and 0.48 on the respective sub-tasks.
+PY  - 2024
+UR  - 223.0
+N1  - Covidence #: #7658
+N1  - Study: Chikoti 2024
+ER  - 
+
+TY  - JOUR
+TI  - Designing a Large Language Model-Based Coaching Intervention for Lifestyle Behavior Change
+AU  - Meywirth, S.
+AB  - Adopting and maintaining healthy lifestyle behaviors such as regular exercise and balanced nutrition remain challenging despite their well-documented benefits for preventing chronic diseases and promoting overall well-being. Motivational Interviewing (MI) has emerged as a promising technique to address ambivalence and facilitate behavior change. However, traditional face-to-face delivery of MI interventions is limited by scalability and accessibility issues. Leveraging recent advancements in LLMs, this paper proposes an innovative approach to deliver MI-based coaching for lifestyle behavior change digitally. Following a problem-centered DSR approach, we created an initial prototype based on MI theory and qualitative user interviews using ChatGPT (GPT-3.5). We evaluated our prototype in a qualitative study. Our research outcomes include five design principles and thirteen system requirements. This research enhances the design knowledge base in LLM-based health coaching. It marks an essential first step towards designing LLM-based MI interventions, contributing valuable insights for future research in this emerging field. © The Author(s), under exclusive license to Springer Nature Switzerland AG 2024.
+PY  - 2024
+JO  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+VL  - 14621 LNCS
+SP  - 81-94
+DO  - 10.1007/978-3-031-61175-9_6
+N1  - Covidence #: #5021
+N1  - Study: Meywirth 2024
+ER  - 
+
+TY  - JOUR
+TI  - Mining Sensor Data to Assess Changes in Physical Activity Behaviors in Health Interventions: Systematic Review
+AU  - Diaz, C.
+AU  - Caillaud, C.
+AU  - Yacef, K.
+AB  - Background: Sensors are increasingly used in health interventions to unobtrusively and continuously capture participants’ physical activity in free-living conditions. The rich granularity of sensor data offers great potential for analyzing patterns and changes in physical activity behaviors. The use of specialized machine learning and data mining techniques to detect, extract, and analyze these patterns has increased, helping to better understand how participants’ physical activity evolves. Objective: The aim of this systematic review was to identify and present the various data mining techniques employed to analyze changes in physical activity behaviors from sensors-derived data in health education and health promotion intervention studies. We addressed two main research questions: (1) What are the current techniques used for mining physical activity sensor data to detect behavior changes in health education or health promotion contexts? (2) What are the challenges and opportunities in mining physical activity sensor data for detecting physical activity behavior changes? Methods: The systematic review was performed in May 2021 using the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines. We queried the Association for Computing Machinery (ACM), IEEE Xplore, ProQuest, Scopus, Web of Science, Education Resources Information Center (ERIC), and Springer literature databases for peer-reviewed references related to wearable machine learning to detect physical activity changes in health education. A total of 4388 references were initially retrieved from the databases. After removing duplicates and screening titles and abstracts, 285 references were subjected to full-text review, resulting in 19 articles included for analysis. Results: All studies used accelerometers, sometimes in combination with another sensor (37%). Data were collected over a period ranging from 4 days to 1 year (median 10 weeks) from a cohort size ranging between 10 and 11615 (median 74). Data preprocessing was mainly carried out using proprietary software, generally resulting in step counts and time spent in physical activity aggregated predominantly at the daily or minute level. The main features used as input for the data mining models were descriptive statistics of the preprocessed data. The most common data mining methods were classifiers, clusters, and decision-making algorithms, and these focused on personalization (58%) and analysis of physical activity behaviors (42%). Conclusions: Mining sensor data offers great opportunities to analyze physical activity behavior changes, build models to better detect and interpret behavior changes, and allow for personalized feedback and support for participants, especially where larger sample sizes and longer recording times are available. Exploring different data aggregation levels can help detect subtle and sustained behavior changes. However, the literature suggests that there is still work remaining to improve the transparency, explicitness, and standardization of the data preprocessing and mining processes to establish best practices and make the detection methods easier to understand, scrutinize, and reproduce. ©Claudio Diaz, Corinne Caillaud, Kalina Yacef.
+PY  - 2023
+JO  - JMIR Medical Informatics
+T2  - JMIR Medical Informatics
+VL  - 11
+DO  - 10.2196/41153
+N1  - Covidence #: #5392
+N1  - Study: Diaz 2023
+ER  - 
+
+TY  - JOUR
+TI  - Reviewer Experience Detecting and Judging Human Versus Artificial Intelligence Content: The Stroke Journal Essay Contest
+AU  - Silva, GS
+AU  - Khera, R
+AU  - Schwamm, LH
+AB  - Artificial intelligence (AI) large language models (LLMs) now produce human-like general text and images. LLMs' ability to generate persuasive scientific essays that undergo evaluation under traditional peer review has not been systematically studied. To measure perceptions of quality and the nature of authorship, we conducted a competitive essay contest in 2024 with both human and AI participants. Human authors and 4 distinct LLMs generated essays on controversial topics in stroke care and outcomes research. A panel of Stroke Editorial Board members (mostly vascular neurologists), blinded to author identity and with varying levels of AI expertise, rated the essays for quality, persuasiveness, best in topic, and author type. Among 34 submissions (22 human and 12 LLM) scored by 38 reviewers, human and AI essays received mostly similar ratings, though AI essays were rated higher for composition quality. Author type was accurately identified only 50% of the time, with prior LLM experience associated with improved accuracy. In multivariable analyses adjusted for author attributes and essay quality, only persuasiveness was independently associated with odds of a reviewer assigning AI as author type (adjusted odds ratio, 1.53 [95% CI, 1.09-2.16]; P=0.01). In conclusion, a group of experienced editorial board members struggled to distinguish human versus AI authorship, with a bias against best in topic for essays judged to be AI generated. Scientific journals may benefit from educating reviewers on the types and uses of AI in scientific writing and developing thoughtful policies on the appropriate use of AI in authoring manuscripts.
+PY  - 2024
+JO  - STROKE
+T2  - STROKE
+VL  - 55
+IS  - 10
+SP  - 2573-2578
+DO  - 10.1161/STROKEAHA.124.045012
+AN  - WOS:001337182000002
+N1  - Covidence #: #6761
+N1  - Study: Silva 2024
+ER  - 
+
+TY  - JOUR
+TI  - Editorial: Designing and evaluating digital health interventions
+AU  - Bul, K.
+AU  - Holliday, N.
+AU  - Luhanga, E.T.
+PY  - 2025
+JO  - Frontiers in Digital Health
+T2  - Frontiers in Digital Health
+VL  - 7
+DO  - 10.3389/fdgth.2025.1612380
+N1  - Covidence #: #4669
+N1  - Study: Bul 2025
+ER  - 
+
+TY  - JOUR
+TI  - Leveraging LLMs for Mental Health: Detection and Recommendations from Social Discussions
+AU  - Aggarwal, V.
+AU  - Thukral, S.
+AU  - Patel, K.
+AU  - Chatterjee, A.
+AB  - Textual data from social platforms captures various aspects of mental health through discussions around and across issues, while users reach out for help and others sympathize and offer support. We propose a comprehensive framework that leverages Natural Language Processing (NLP) and Generative AI techniques to identify and assess mental health disorders, detect their severity, and create recommendations for behavior change and therapeutic interventions based on users' posts on Reddit. To classify the disorders, we use rule-based labeling methods as well as advanced pre-trained NLP models to extract nuanced semantic features from the data. We fine-tune domain-adapted and generic pre-trained NLP models based on predictions from specialized Large Language Models (LLMs) to improve classification accuracy. Our hybrid approach combines the generalization capabilities of pre-trained models with the domain-specific in-sights captured by LLMs, providing an improved understanding of mental health discourse. Our findings highlight the strengths and limitations of each model, offering valuable insights into their practical applicability. This research potentially facilitates early detection and personalized care to aid practitioners and aims to facilitate timely interventions and improve overall well-being, thereby contributing to the broader field of mental health surveillance and digital health analytics. © 2024 IEEE.
+PY  - 2024
+JO  - Proceedings - 2024 IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology, WI-IAT 2024
+T2  - Proceedings - 2024 IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology, WI-IAT 2024
+SP  - 350-354
+DO  - 10.1109/WI-IAT62293.2024.00055
+N1  - Covidence #: #4978
+N1  - Study: Aggarwal 2024
+ER  - 
+
+TY  - JOUR
+TI  - A Heuristic Strategy for Persuasion Dialogues
+AU  - Murphy, J.
+AU  - Black, E.
+AU  - Luck, M.
+AB  - Argument-based persuasion dialogues provide an effective mechanism for agents to communicate their beliefs, and their reasons for those beliefs, in order to convince another agent of some topic argument. In such dialogues, the persuader has strategic considerations, and must decide which of its known arguments should be asserted, and the order in which they should be asserted. Recent works consider mechanisms for determining an optimal strategy for persuading the responder. However, computing such strategies is expensive, swiftly becoming impractical as the number of arguments increases. In response, we present a strategy that uses heuristic information of the domain arguments and can be computed with high numbers of arguments. Our results show that not only is the heuristic strategy fast to compute, it also performs significantly better than a random strategy. © 2016 The authors and IOS Press.
+PY  - 2016
+JO  - Frontiers in Artificial Intelligence and Applications
+T2  - Frontiers in Artificial Intelligence and Applications
+VL  - 287
+SP  - 411-418
+DO  - 10.3233/978-1-61499-686-6-411
+N1  - Covidence #: #6187
+N1  - Study: Murphy 2016
+ER  - 
+
+TY  - JOUR
+TI  - Behavioral Nudging With Generative AI for Content Development in SMS Health Care Interventions: Case Study
+AU  - Harrison, R.M.
+AU  - Lapteva, E.
+AU  - Bibin, A.
+AB  - Background: Brief message interventions have demonstrated immense promise in health care, yet the development of these messages has suffered from a dearth of transparency and a scarcity of publicly accessible data sets. Moreover, the researcher-driven content creation process has raised resource allocation issues, necessitating a more efficient and transparent approach to content development. Objective: This research sets out to address the challenges of content development for SMS interventions by showcasing the use of generative artificial intelligence (AI) as a tool for content creation, transparently explaining the prompt design and content generation process, and providing the largest publicly available data set of brief messages and source code for future replication of our process. Methods: Leveraging the pretrained large language model GPT-3.5 (OpenAI), we generate a collection of messages in the context of medication adherence for individuals with type 2 diabetes using evidence-derived behavior change techniques identified in a prior systematic review. We create an attributed prompt designed to adhere to content (readability and tone) and SMS (character count and encoder type) standards while encouraging message variability to reflect differences in behavior change techniques. Results: We deliver the most extensive repository of brief messages for a singular health care intervention and the first library of messages crafted with generative AI. In total, our method yields a data set comprising 1150 messages, with 89.91% (n=1034) meeting character length requirements and 80.7% (n=928) meeting readability requirements. Furthermore, our analysis reveals that all messages exhibit diversity comparable to an existing publicly available data set created under the same theoretical framework for a similar setting. Conclusions: This research provides a novel approach to content creation for health care interventions using state-of-the-art generative AI tools. Future research is needed to assess the generated content for ethical, safety, and research standards, as well as to determine whether the intervention is successful in improving the target behaviors. © Rachel M Harrison, Ekaterina Lapteva, Anton Bibin. Originally published in JMIR AI.
+PY  - 2024
+JO  - JMIR AI
+T2  - JMIR AI
+VL  - 3
+IS  - 1
+DO  - 10.2196/52974
+N1  - Covidence #: #4974
+N1  - Study: Harrison 2024
+ER  - 
+
+TY  - JOUR
+TI  - Theory based explanation of case law domains
+AU  - Bench-Capon, T.
+AU  - Sartor, G.
+AB  - In this paper we put forward a formal description of theories which can be used to record understanding of, and explain decisions in, case law domains. We believe that reasoning with cases involves all of theory construction, use and evaluation, and that awareness of the theory which provides a context for case based arguments is essential to understanding such arguments. Moreover, our account of these theories includes a systematic link between factors and values, which we believe is necessary to explain why some arguments prove to be more persuasive than others. We begin by formalising the various elements that the theories contain, and then provide a set of theory constructors which allow theories to built up from the background of decided cases. We show how such theories can be used to explain decisions on particular cases. We discuss how theories can be compared and evaluated. We then show how the argument moves of HYPO and CATO can be understood in terms of our framework. We conclude with a brief discussion of an implementation of the framework, and a summary of the major features of our approach. Copyright 2001 ACM.
+PY  - 2001
+JO  - Proceedings of the International Conference on Artificial Intelligence and Law
+T2  - Proceedings of the International Conference on Artificial Intelligence and Law
+SP  - 12-21
+DO  - 10.1145/383535.383537
+N1  - Covidence #: #6587
+N1  - Study: Bench-Capon 2001
+ER  - 
+
+TY  - JOUR
+TI  - Coherence over time: Understanding day-to-day changes in students’ open-ended problem solving behaviors
+AU  - Segedy, J.R.
+AU  - Kinnebrew, J.S.
+AU  - Biswas, G.
+AB  - Understanding students’ self-regulated learning (SRL) behaviors in open-ended learning environments (OELEs) is an on-going area of research. Whereas OELEs facilitate use of SRL processes, measuring them reliably is difficult. In this paper, we employ coherence analysis, a recently-developed approach to analyzing students’ problem solving behaviors in OELEs, to study how student behaviors change over time as they use an OELE called Betty’s Brain. Results show interesting patterns in students’ day-to-day transitions, and these results can be used to better understand the individual student’s characteristics and the challenges they face when learning in OELEs. © Springer International Publishing Switzerland 2015.
+PY  - 2015
+JO  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+VL  - 9112
+SP  - 449-458
+DO  - 10.1007/978-3-319-19773-9_45
+N1  - Covidence #: #6250
+N1  - Study: Segedy 2015
+ER  - 
+
+TY  - JOUR
+TI  - AI-powered ChatGPT in the hospitality and tourism industry: benefits, challenges, theoretical framework, propositions and future research directions
+AU  - Rather, R.A.
+AB  - Generative artificial intelligence (AI) and smart/e-tourism provide imperative opportunities to service industries; however, the implementation of ChatGPT in the tourism and hospitality industry is limited, which extends different considerations/challenges that need vigilant reflection. Based on this significance and research gap, we thus develop a theoretical framework which suggests different sets of key research propositions in AI technology-powered ChatGPT. A widespread literature review and practices were conducted to investigate the conceptual advancements/developments on generative AI-powered technologies including ChatGPT, chatbot in marketing, tourism, hospitality and information management. The proposed framework suggests generative AI technology-powered ChatGPT develops customer’s interaction-based conditions including experience, engagement/trust, attachment, satisfaction/service quality, attitude change and operational efficiency, which consequently affect their strategic outcomes including behaviours, subjective/psychological well-being, happiness and performance. Thus, this research note suggests theoretical/practical implications to provide an extensive future-research roadmap on AI technology-powered ChatGPT and also recommends transformative opportunities, challenges and benefits in tourism, hospitality and marketing management. © 2024 Informa UK Limited, trading as Taylor & Francis Group.
+PY  - 2025
+JO  - Tourism Recreation Research
+T2  - Tourism Recreation Research
+VL  - 50
+IS  - 3
+SP  - 652-662
+DO  - 10.1080/02508281.2023.2287799
+N1  - Covidence #: #4725
+N1  - Study: Rather 2025
+ER  - 
+
+TY  - JOUR
+TI  - Personification aspect of conversational agents as representations of a physical object
+AU  - Yoshii, A.
+AU  - Nakajima, T.
+AB  - Using computer technologies, the physical world in which we live and the virtual worlds generated by computers or popular cultures are coming closer together. Virtual agents are often designed that refer to humans in the physical world; at the same time, physical world products or services draw stories and emotions using characters. Computers can adjust virtual representations in the physical world based on the informa-tion they represent which is possessed by computers, and this adjustment leads to perceived personification. In this paper, we discuss the perception of personification and the possibil-ity of application for persuasion. We developed a prototype application and then conducted surveys and a task-based user study. The results suggest the possibility of persuasion from personified agents superimposed close to an object. © 2015 ACM.
+PY  - 2015
+JO  - HAI 2015 - Proceedings of the 3rd International Conference on Human-Agent Interaction
+T2  - HAI 2015 - Proceedings of the 3rd International Conference on Human-Agent Interaction
+SP  - 231-234
+DO  - 10.1145/2814940.2814983
+N1  - Covidence #: #6148
+N1  - Study: Yoshii 2015
+ER  - 
+
+TY  - JOUR
+TI  - Brain versus bot: Distinguishing letters of recommendation authored by humans compared with artificial intelligence
+AU  - Preiksaitis, C.
+AU  - Nash, C.
+AU  - Gottlieb, M.
+AU  - Chan, T.M.
+AU  - Alvarez, A.
+AU  - Landry, A.
+AB  - Objectives: Letters of recommendation (LORs) are essential within academic medicine, affecting a number of important decisions regarding advancement, yet these letters take significant amounts of time and labor to prepare. The use of generative artificial intelligence (AI) tools, such as ChatGPT, are gaining popularity for a variety of academic writing tasks and offer an innovative solution to relieve the burden of letter writing. It is yet to be determined if ChatGPT could aid in crafting LORs, particularly in high-stakes contexts like faculty promotion. To determine the feasibility of this process and whether there is a significant difference between AI and human-authored letters, we conducted a study aimed at determining whether academic physicians can distinguish between the two. Methods: A quasi-experimental study was conducted using a single-blind design. Academic physicians with experience in reviewing LORs were presented with LORs for promotion to associate professor, written by either humans or AI. Participants reviewed LORs and identified the authorship. Statistical analysis was performed to determine accuracy in distinguishing between human and AI-authored LORs. Additionally, the perceived quality and persuasiveness of the LORs were compared based on suspected and actual authorship. Results: A total of 32 participants completed letter review. The mean accuracy of distinguishing between human- versus AI-authored LORs was 59.4%. The reviewer's certainty and time spent deliberating did not significantly impact accuracy. LORs suspected to be human-authored were rated more favorably in terms of quality and persuasiveness. A difference in gender-biased language was observed in our letters: human-authored letters contained significantly more female-associated words, while the majority of AI-authored letters tended to use more male-associated words. Conclusions: Participants were unable to reliably differentiate between human- and AI-authored LORs for promotion. AI may be able to generate LORs and relieve the burden of letter writing for academicians. New strategies, policies, and guidelines are needed to balance the benefits of AI while preserving integrity and fairness in academic promotion decisions. © 2023 The Authors. AEM Education and Training published by Wiley Periodicals LLC on behalf of Society for Academic Emergency Medicine.
+PY  - 2023
+JO  - AEM Education and Training
+T2  - AEM Education and Training
+VL  - 7
+IS  - 6
+DO  - 10.1002/aet2.10924
+N1  - Covidence #: #5192
+N1  - Study: Preiksaitis 2023
+ER  - 
+
+TY  - JOUR
+TI  - MindShif: Leveraging Large Language Models for Mental-States-Based Problematic Smartphone Use Intervention
+AU  - Wu, R.
+AU  - Yu, C.
+AU  - Pan, X.
+AU  - Liu, Y.
+AU  - Zhang, N.
+AU  - Fu, Y.
+AU  - Wang, Y.
+AU  - Zheng, Z.
+AU  - Chen, L.
+AU  - Jiang, Q.
+AU  - Xu, X.
+AU  - Shi, Y.
+AB  - Problematic smartphone use negatively affects physical and mental health. Despite the wide range of prior research, existing persuasive techniques are not flexible enough to provide dynamic persuasion content based on users' physical contexts and mental states. We first conducted a Wizard-of-Oz study (N=12) and an interview study (N=10) to summarize the mental states behind problematic smartphone use: boredom, stress, and inertia. This informs our design of four persuasion strategies: understanding, comforting, evoking, and scaffolding habits. We leveraged large language models (LLMs) to enable the automatic and dynamic generation of effective persuasion content. We developed MindShift, a novel LLM-powered problematic smartphone use intervention technique. MindShift takes users' in-the-moment app usage behaviors, physical contexts, mental states, goals & habits as input, and generates personalized and dynamic persuasive content with appropriate persuasion strategies. We conducted a 5-week field experiment (N=25) to compare MindShift with its simplified version (remove mental states) and baseline techniques (fixed reminder). The results show that MindShift improves intervention acceptance rates by 4.7-22.5% and reduces smartphone usage duration by 7.4-9.8%. Moreover, users have a significant drop in smartphone addiction scale scores and a rise in self-efficacy scale scores. Our study sheds light on the potential of leveraging LLMs for context-aware persuasion in other behavior change domains. © 2024 Copyright held by the owner/author(s)
+PY  - 2024
+JO  - Conference on Human Factors in Computing Systems - Proceedings
+T2  - Conference on Human Factors in Computing Systems - Proceedings
+DO  - 10.1145/3613904.3642790
+N1  - Covidence #: #4926
+N1  - Study: Wu 2024
+ER  - 
+
+TY  - JOUR
+TI  - Bottom-Up and Top-Down Analysis of Values, Agendas, and Observations in Corpora and LLMs
+AU  - Friedman, S.E.
+AU  - Benkler, N.
+AU  - Iverson, D.
+AU  - Goldman, R.P.
+AU  - Miller, C.
+AB  - Large language models (LLMs) generate diverse, situated, persuasive texts from a plurality of potential perspectives, influenced heavily by their prompts and training data. As part of LLM adoption, we seek to characterize—and ideally, manage—the socio-cultural values that they express, for reasons of safety, accuracy, inclusion, and cultural fidelity. We present a validated approach to automatically (1) extracting heterogeneous latent value propositions from texts, (2) assessing resonance and conflict of values with texts, and (3) combining these operations to characterize the pluralistic value alignment of human-sourced and LLM-sourced textual data.
+PY  - 2024
+UR  - 128.0
+N1  - Covidence #: #7562
+N1  - Study: Friedman 2024
+ER  - 
+
+TY  - JOUR
+TI  - Feelbot: Reducing Use of Bad Words in Children through Wearable using Artificial Intelligence and Gamification
+AU  - ACM
+AU  - Gaikwad, G
+AU  - Jain, A
+AB  - Feelbot is a cloud based self-learning system that helps children in reducing the use of bad words in their inperson and online communication. It can be used with existing wearable hardware such as wrist band, mobile phone or smart watch. It has a listening component that children can wear all the time. It gives real time alerts when the bad words are being used and also suggests better words to avoid the offense. The system is self-learning and uses cloud platform to analyze communication and create personalized game-challenges for a child. The real time support and the analytics can help a child in spotting and changing their undesirable language and motivates them towards developing mindful and kindful behavior through Gamification. The solution gives control to child for sharing the content and analytics to maintain privacy.
+PY  - 2017
+JO  - PROCEEDINGS OF THE 2017 ACM CONFERENCE ON INTERACTION DESIGN AND CHILDREN (IDC 2017)
+T2  - PROCEEDINGS OF THE 2017 ACM CONFERENCE ON INTERACTION DESIGN AND CHILDREN (IDC 2017)
+SP  - 777-781
+DO  - 10.1145/3078072.3105876
+AN  - WOS:000519098200113
+N1  - Covidence #: #7021
+N1  - Study: ACM 2017
+ER  - 
+
+TY  - JOUR
+TI  - Managing a team in the operating room: The science of teamwork and non-technical skills for surgeons
+AU  - Sinyard, R.D.
+AU  - Rentas, C.M.
+AU  - Gunn, E.G.
+AU  - Etheridge, J.C.
+AU  - Robertson, J.M.
+AU  - Gleason, A.
+AU  - Riley, M.S.
+AU  - Yule, S.
+AU  - Smink, D.S.
+PY  - 2022
+JO  - Current Problems in Surgery
+T2  - Current Problems in Surgery
+VL  - 59
+IS  - 7
+DO  - 10.1016/j.cpsurg.2022.101172
+N1  - Covidence #: #5494
+N1  - Study: Sinyard 2022
+ER  - 
+
+TY  - JOUR
+TI  - Pro or Contra? Persuasion in the potsdam commentary corpus
+AU  - Stede, M.
+AB  - This short paper describes our ongoing work on representing the argument structure of a particular class of persuasive texts, and on reading experiments designed to investigate the effects of certain rhetorical devices, in particular the use of explicit argumentative connectives.
+PY  - 2009
+JO  - Adaptive and Emergent Behaviour and Complex Systems - Proceedings of the 23rd Convention of the Society for the Study of Artificial Intelligence and Simulation of Behaviour, AISB 2009
+T2  - Adaptive and Emergent Behaviour and Complex Systems - Proceedings of the 23rd Convention of the Society for the Study of Artificial Intelligence and Simulation of Behaviour, AISB 2009
+SP  - 57-58
+N1  - Covidence #: #6436
+N1  - Study: Stede 2009
+ER  - 
+
+TY  - JOUR
+TI  - Virtual training and coaching of health behavior: Example from mindfulness meditation training
+AU  - Hudlicka, E.
+AB  - Objective: Computer-based virtual coaches are increasingly being explored for patient education, counseling, and health behavior training and coaching. The objective of this research was to develop and evaluate a Virtual Mindfulness Coach for training and coaching in mindfulness meditation. Methods: The coach was implemented as an embodied conversational character, providing mindfulness training and coaching via mixed initiative, text-based, natural language dialog with the student, and emphasizing affect-adaptive interaction. (The term 'mixed initiative dialog' refers to a human-machine dialog where either can initiate a conversation or a change in the conversation topic.). Results: Findings from a pilot evaluation study indicate that the coach-based training is more effective in helping students establish a regular practice than self-administered training using written and audio materials. The coached group also appeared to be in more advanced stages of change in terms of the transtheoretical model, and have a higher sense of self-efficacy regarding establishment of a regular mindfulness practice. Conclusion: These results suggest that virtual coach-based training of mindfulness is both feasible, and potentially more effective, than a self-administered program. Of particular interest is the identification of the specific coach features that contribute to its effectiveness. Practice implications: Virtual coaches could provide easily accessible and cost-effective customized training for a range of health behaviors. The affect-adaptive aspect of these coaches is particularly relevant for helping patients establish long-term behavior changes. © 2013 Elsevier Ireland Ltd.
+PY  - 2013
+JO  - Patient Education and Counseling
+T2  - Patient Education and Counseling
+VL  - 92
+IS  - 2
+SP  - 160-166
+DO  - 10.1016/j.pec.2013.05.007
+N1  - Covidence #: #6396
+N1  - Study: Hudlicka 2013
+ER  - 
+
+TY  - JOUR
+TI  - Design of a social web service and ambient interface for energy conservation and social feedback in a neighbourhood
+AU  - Bang, M.
+AU  - Jonsson, L.
+AB  - Appropriately designed web services and ambient interfaces can work in concert to aid people saving energy in the home. Boel is an experimental social web service that presents daily consumption figures to home owners and neighbors to promote joint savings and foster competitive energy saving behaviors. Moreover, the service includes a Zigbee-enabled ambient lamp that provides feedback on the energy consumption in the household and these interfaces are installed so that the neighbors can observe each others energy status. The goal of the design was to promote daily awareness of the home's energy consumption and to promote saving behaviors by means of a competitive scheme and peer-pressure. In this paper, we present the design and rationale of this web service and its ambient interface as well as its pros and cons. © ICT&S Center, University of Salzburg.
+PY  - 2009
+JO  - Roots for the Future of Ambient Intelligence - Adjunct Proceedings, 3rd European Conference on Ambient Intelligence, AmI 2009
+T2  - Roots for the Future of Ambient Intelligence - Adjunct Proceedings, 3rd European Conference on Ambient Intelligence, AmI 2009
+SP  - 208-212
+N1  - Covidence #: #6594
+N1  - Study: Bang 2009
+ER  - 
+
+TY  - JOUR
+TI  - Unpacking the impact of AI vs. human-generated review summary on hotel booking intentions
+AU  - (Jasper) Jia, S.
+AU  - Chi, O.H.
+AU  - Chi, C.G.
+AB  - This study investigates the impacts of the source of hotel review summary (AI-generated vs. human-generated) on customers' trust, information processing, and booking intentions through three scenario-based experiments involving 764 participants. Study 1 reveals that human-generated (vs. AI-generated) summaries lead to a higher level of trust, which boosts booking intentions. Study 2 finds that with negative reviews, there's no significant difference in booking intentions between AI and human-generated summaries, suggesting trust isn't the sole mediator. Study 3 proposes that information processing effort is a potential mediator. The findings confirm that when review valence is negative, customers invest more cognitive effort when reading AI-generated compared to human-generated summaries. The results challenge the assumption that human-generated reviews are inherently more persuasive. This research addresses critical gaps in understanding AI-generated content's impact on customer behavior in the hospitality industry, offering both theoretical contributions and practical insights for integrating AI technologies in customer communication strategies. © 2024 Elsevier Ltd
+PY  - 2025
+JO  - International Journal of Hospitality Management
+T2  - International Journal of Hospitality Management
+VL  - 126
+DO  - 10.1016/j.ijhm.2024.104030
+N1  - Covidence #: #4623
+N1  - Study: (Jasper)Jia 2025
+ER  - 
+
+TY  - JOUR
+TI  - The Complex Interaction Between Sleep-Related Information, Misinformation, and Sleep Health: Call for Comprehensive Research on Sleep Infodemiology and Infoveillance
+AU  - Bragazzi, N.L.
+AU  - Garbarino, S.
+AB  - The complex interplay between sleep-related information—both accurate and misleading—and its impact on clinical public health is an emerging area of concern. Lack of awareness of the importance of sleep, and inadequate information related to sleep, combined with misinformation about sleep, disseminated through social media, nonexpert advice, commercial interests, and other sources, can distort individuals’ understanding of healthy sleep practices. Such misinformation can lead to the adoption of unhealthy sleep behaviors, reducing sleep quality and exacerbating sleep disorders. Simultaneously, poor sleep itself impairs critical cognitive functions, such as memory consolidation, emotional regulation, and decision-making. These impairments can heighten individuals’ vulnerability to misinformation, creating a vicious cycle that further entrenches poor sleep habits and unhealthy behaviors. Sleep deprivation is known to reduce the ability to critically evaluate information, increase suggestibility, and enhance emotional reactivity, making individuals more prone to accepting persuasive but inaccurate information. This cycle of misinformation and poor sleep creates a clinical public health issue that goes beyond individual well-being, influencing occupational performance, societal productivity, and even broader clinical public health decision-making. The effects are felt across various sectors, from health care systems burdened by sleep-related issues to workplaces impacted by decreased productivity due to sleep deficiencies. The need for comprehensive clinical public health initiatives to combat this cycle is critical. These efforts must promote sleep literacy, increase awareness of sleep’s role in cognitive resilience, and correct widespread sleep myths. Digital tools and technologies, such as sleep-tracking devices and artificial intelligence–powered apps, can play a role in educating the public and enhancing the accessibility of accurate, evidence-based sleep information. However, these tools must be carefully designed to avoid the spread of misinformation through algorithmic biases. Furthermore, research into the cognitive impacts of sleep deprivation should be leveraged to develop strategies that enhance societal resilience against misinformation. Sleep infodemiology and infoveillance, which involve tracking and analyzing the distribution of sleep-related information across digital platforms, offer valuable methodologies for identifying and addressing the spread of misinformation in real time. Addressing this issue requires a multidisciplinary approach, involving collaboration between sleep scientists, health care providers, educators, policy makers, and digital platform regulators. By promoting healthy sleep practices and debunking myths, it is possible to disrupt the feedback loop between poor sleep and misinformation, leading to improved individual health, better decision-making, and stronger societal outcomes. © 2024 JMIR Publications Inc.. All rights reserved.
+PY  - 2024
+JO  - JMIR Infodemiology
+T2  - JMIR Infodemiology
+VL  - 4
+DO  - 10.2196/57748
+N1  - Covidence #: #5150
+N1  - Study: Bragazzi 2024
+ER  - 
+
+TY  - JOUR
+TI  - Analogy in scientific argumentation
+AU  - Gibson, K.
+AB  - Analogical reasoning has long been an important tool in the production of scientific knowledge, yet many scientists remain hesitant to fully endorse (or even admit) its use. As the teachers of scientific and technical writers, we have an opportunity and responsibility to teach them to use analogy without their writing becoming “overly inductive,” as Aristotle warned. To that end, I here offer an analysis of an example of the effective use of analogy in Rodney Brooks's “Intelligence Without Representation.” In this article, Brooks provides a model for incorporating these tools into an argument by building four of them into an enthymeme that clearly organizes his argument. This combination of inductive and deductive reasoning helped the article become a very influential piece of scholarship in artificial intelligence research, and it can help our students learn to use analogy in their own writing. Every one who effects persuasion through proof does in fact use either enthymemes or examples: there is no other way. (Aristotle, 1984b, p. 26). © 2008 Taylor & Francis Group, LLC.
+PY  - 2008
+JO  - Technical Communication Quarterly
+T2  - Technical Communication Quarterly
+VL  - 17
+IS  - 2
+SP  - 202-219
+DO  - 10.1080/10572250701878868
+N1  - Covidence #: #6602
+N1  - Study: Gibson 2008
+ER  - 
+
+TY  - JOUR
+TI  - Confronting Core Issues: A Critical Assessment of Attitude Polarization Using Tailored Experiments
+AU  - Velez, YR
+AU  - Liu, P
+AB  - A long-standing debate in political psychology considers whether individuals update their beliefs and attitudes in the direction of evidence or grow more confident in their convictions when confronted with counter-attitudinal arguments. Though recent studies have shown that instances of the latter tendency, which scholars have termed attitude polarization and "belief backfire," are rarely observed in settings involving hot-button issues or viral misinformation, we know surprisingly little about how participants respond to information targeting deeply held attitudes, a key condition for triggering attitude polarization. We develop a tailored experimental design that measures participants' core issue positions and exposes them to personalized counter-attitudinal information using the large language model GPT-3. We find credible evidence of attitude polarization, but only when arguments are contentious and vitriolic. For lower valence counter-attitudinal arguments, attitude polarization is not detected. We conclude by discussing implications for the study of political cognition and the measurement of attitudes.
+PY  - 2025
+JO  - AMERICAN POLITICAL SCIENCE REVIEW
+T2  - AMERICAN POLITICAL SCIENCE REVIEW
+VL  - 119
+IS  - 2
+SP  - 1036-1053
+DO  - 10.1017/S0003055424000819
+AN  - WOS:001284611200001
+N1  - Covidence #: #6731
+N1  - Study: Velez 2025
+ER  - 
+
+TY  - JOUR
+TI  - Establishing the computer-patient working alliance in automated health behavior change interventions
+AU  - Bickmore, T.
+AU  - Gruber, A.
+AU  - Picard, R.
+AB  - Current user interfaces for automated patient and consumer health care systems can be improved by leveraging the results of several decades of research into effective patient-provider communication skills. A research project is presented in which several such "relational" skills - including empathy, social dialogue, nonverbal immediacy behaviors, and other behaviors to build and maintain good working relationships over multiple interactions - are explicitly designed into a computer interface within the context of a longitudinal health behavior change intervention for physical activity adoption. Results of a comparison among 33 subjects interacting near-daily with the relational system and 27 interacting near-daily with an identical system with the relational behaviors ablated, each for 30 days indicate, that the use of relational behaviors by the system significantly increases working alliance and desire to continue working with the system. Comparison of the above groups to another group of 31 subjects interacting with a control system near-daily for 30 days also indicated a significant increase in proactive viewing of health information. © 2004 Elsevier Ireland Ltd. All rights reserved.
+PY  - 2005
+JO  - Patient Education and Counseling
+T2  - Patient Education and Counseling
+VL  - 59
+IS  - 1
+SP  - 21-30
+DO  - 10.1016/j.pec.2004.09.008
+N1  - Covidence #: #6591
+N1  - Study: Bickmore 2005
+ER  - 
+
+TY  - JOUR
+TI  - Risk and Exposure of XAI in Persuasion and Argumentation: The case of Manipulation
+AU  - Carli, R
+AU  - Najjar, A
+AU  - Calvaresi, D
+AB  - In the last decades, Artificial intelligence (AI) systems have been increasingly adopted in assistive (possibly collaborative) decision-making tools. In particular, AI-based persuasive technologies are designed to steer/influence users' behaviour, habits, and choices to facilitate the achievement of their own - predetermined - goals. Nowadays, the inputs received by the assistive systems leverage heavily AI data-driven approaches. Thus, it is imperative to have transparent and understandable (to the user) both the process leading to the recommendations and the recommendations. The Explainable AI (XAI) community has progressively contributed to "opening the black box" , ensuring the interaction's effectiveness, and pursuing the safety of the individuals involved. However, principles and methods ensuring the efficacy and information retain on the human have not been introduced yet. The risk is to underestimate the context dependency and subjectivity of the explanations' understanding, interpretation, and relevance. Moreover, even a plausible (and possibly expected) explanation can lead to an imprecise or incorrect outcome or its understanding. This can lead to unbalanced and unfair circumstances, such as giving a financial advantage to the system owner/provider and the detriment of the user.This paper highlights that the sole explanations - especially in the context of persuasive technologies - are not self-sufficient to protect users' psychological and physical integrity. Conversely, explanations could be misused, becoming themselves a tool of manipulation. Therefore, we suggest characteristics safeguarding the explanation from being manipulative and legal principles to be used as criteria for evaluating the operation of XAI systems, both from an ex-ante and ex-post perspective.
+PY  - 2022
+JO  - EXPLAINABLE AND TRANSPARENT AI AND MULTI-AGENT SYSTEMS, EXTRAAMAS 2022
+T2  - EXPLAINABLE AND TRANSPARENT AI AND MULTI-AGENT SYSTEMS, EXTRAAMAS 2022
+VL  - 13283
+SP  - 204-220
+DO  - 10.1007/978-3-031-15565-9_13
+AN  - WOS:000870042100013
+N1  - Covidence #: #7351
+N1  - Study: Carli 2022
+ER  - 
+
+TY  - JOUR
+TI  - Algorithmic Bayesian Persuasion with Combinatorial Actions
+AU  - Fujii, K.
+AU  - Sakaue, S.
+AB  - Bayesian persuasion is a model for understanding strategic information revelation: an agent with an informational advantage, called a sender, strategically discloses information by sending signals to another agent, called a receiver. In algorithmic Bayesian persuasion, we are interested in efficiently designing the sender's signaling schemes that lead the receiver to take action in favor of the sender. This paper studies algorithmic Bayesian-persuasion settings where the receiver's feasible actions are specified by combinatorial constraints, e.g., matroids or paths in graphs. We first show that constant-factor approximation is NP-hard even in some special cases of matroids or paths. We then propose a polynomial-time algorithm for general matroids by assuming the number of states of nature to be a constant. We finally consider a relaxed notion of persuasiveness, called CCE-persuasiveness, and present a sufficient condition for polynomial-time approximability. © 2022, Association for the Advancement of Artificial Intelligence (www.aaai.org). All rights reserved.
+PY  - 2022
+JO  - Proceedings of the 36th AAAI Conference on Artificial Intelligence, AAAI 2022
+T2  - Proceedings of the 36th AAAI Conference on Artificial Intelligence, AAAI 2022
+VL  - 36
+SP  - 5016-5024
+DO  - 10.1609/aaai.v36i5.20433
+N1  - Covidence #: #5498
+N1  - Study: Fujii 2022
+ER  - 
+
+TY  - JOUR
+TI  - Where do pigeons’ choices come from? Transfer Learning in Spiking Neural Networks for Animal Choices in Behavioral Research
+AU  - Plessas, A.
+AU  - Espinosa-Ramos, J.I.
+AU  - Cowie, S.
+AU  - Landon, J.
+AU  - Parry, D.
+AB  - There is a large body of work in the behavioural psychology literature studying how an organism’s behavior changes in relation to consequences (reinforcement) from the environment. As all behaviors are an outcome of choice, behavioral research focuses on the study of choice behavior. Machine learning (ML) models may assist behavioral research to further understand the mechanisms of choice behavior. However, behavioral psychology datasets can be small and variable, affecting the ML's ability to generalize with new datasets extracted from different populations and/or behavioral experiments and limiting ML's usefulness in this context. Therefore, in this paper, we tested two transfer learning strategies –feature extraction and fine-tuning– to remove the need to retrain ML models for every new dataset. Our approach allowed our state-of-the-art artificial intelligence model to become adaptable to novel instances. Initially, we trained a single spiking neural network (SNN) to identify an organism’s reinforcement history based on five experimental datasets of pigeon binary decision-making. Then we tested two transfer learning strategies by keeping the underlying patterns of the pre-trained SNN the same (i.e., neuron properties and weights) and adapting only the classifier of the outputs (i.e., firing rates) to suit the new datasets. Lastly, we compared the performance of the transfer learning approaches to our baseline SNN model. Our study demonstrated that knowledge gained from a population (baseline model) could be applied to another population’s dataset without retraining the model each time, regardless of which dataset participated in the training or testing of the SNN model. Currently, there is limited use of transfer learning in SNNs and in animal research. Our results may help develop new approaches in the ‘toolbox’ of psychological research to enhance prediction, independent from the dataset, without consuming significant computational resources.
+PY  - 2023
+UR  - 312.0
+N1  - Covidence #: #7746
+N1  - Study: Plessas 2023
+ER  - 
+
+TY  - JOUR
+TI  - How to Facilitate Explainability of AI for Increased User Trust: Results of a Study with a COVID-19 Risk Calculator
+AU  - Ewerz, B.
+AU  - Hoefler, M.
+AU  - Marx, C.
+AU  - Moertl, P.
+AB  - While the market of smart technologies is steadily increasing, there is much research to be done regarding the interaction between human users and Artificial Intelligence (AI) technologies. Specifically, the field of Explainable Artificial Intelligence (XAI) focuses on making AI explainable to users. To provide a user-centered approach to this growing field, this paper describes a study to investigate possible processes and methods. For this purpose, 20 participants were asked to use an AI system that provided them with the results of a personalized COVID-19 risk calculation. The study results indicate that while participants generally seemed to think that the presented results of the system were accurate, only a few said that they would change their behavior after receiving the results, and many asked for additional information to better understand the results. This paper discusses the findings along with possible approaches to increase behavior change in users of smart systems.  © 2021 Croatian Society MIPRO.
+PY  - 2021
+JO  - 2021 44th International Convention on Information, Communication and Electronic Technology, MIPRO 2021 - Proceedings
+T2  - 2021 44th International Convention on Information, Communication and Electronic Technology, MIPRO 2021 - Proceedings
+SP  - 1076-1080
+DO  - 10.23919/MIPRO52101.2021.9596837
+N1  - Covidence #: #5811
+N1  - Study: Ewerz 2021
+ER  - 
+
+TY  - JOUR
+TI  - How to Achieve Ethical Persuasive Design: A Review and Theoretical Propositions for Information Systems
+AU  - Benner, D.
+AU  - Schöbel, S.
+AU  - Janson, A.
+AU  - Leimeister, J.M.
+AB  - Persuasive system design (PSD) is an umbrella term for designs in information systems (IS) that can influence people’s attitude, behavior, or decision making for better or for worse. On the one hand, PSD can improve users’ engagement and motivation to change their attitude, behavior, or decision making in a favorable way, which can help them achieve a desired outcome and, thus, improve their wellbeing. On the other hand, PSD misuse can lead to unethical and undesirable outcomes, such as disclosing unnecessary information or agreeing to terms that do not favor users, which, in turn, can negatively impact their wellbeing. These powerful persuasive designs can involve concepts such as gamification, gamblification, and digital nudging, which all have become prominent in recent years and have been implemented successfully across different sectors, such as education, e-health, e-governance, e-finance, and digital privacy contexts. However, such persuasive influence on individuals raises ethical questions as PSD can impair users’ autonomy or persuade them towards a third party’s goals and, hence, lead to unethical decision-making processes and outcomes. In human-computer interaction, recent advances in artificial intelligence have made this topic particularly significant. These novel technologies allow one to influence the decisions that users make, to gather data, and to profile and persuade users into unethical outcomes. These unethical outcomes can lead to psychological and emotional damage to users. To understand the role that ethics play in persuasive system design, we conducted an exhaustive systematic literature analysis and 20 interviews to overview ethical considerations for persuasive system design. Furthermore, we derive potential propositions for more ethical PSD and shed light on potential research gaps. © 2022 by the Association for Information Systems.
+PY  - 2022
+JO  - AIS Transactions on Human-Computer Interaction
+T2  - AIS Transactions on Human-Computer Interaction
+VL  - 14
+IS  - 4
+SP  - 548-577
+DO  - 10.17705/1thci.00179
+N1  - Covidence #: #5499
+N1  - Study: Benner 2022
+ER  - 
+
+TY  - JOUR
+TI  - Motivational Embodied Conversational Agent for Brain Injury Rehabilitation
+AU  - Hocking, J.
+AU  - Maeder, A.
+AB  - The design and development of a motivational embodied conversational agent for brain injury rehabilitation is discussed. Results for initial prototype design and implementation, and alpha and beta testing phases are presented. Key aspects identified during development included supporting user engagement via personalization and choice-making; integrating behaviour change principles into dialogues; addressing clinical needs of cognitive fatigue and memory loss within conversation structure; and optimizing feasibility of use in a real-life clinical setting.  © 2021 The authors and IOS Press.
+PY  - 2021
+JO  - Studies in Health Technology and Informatics
+T2  - Studies in Health Technology and Informatics
+VL  - 277
+SP  - 37-46
+DO  - 10.3233/SHTI210026
+N1  - Covidence #: #5657
+N1  - Study: Hocking 2021
+ER  - 
+
+TY  - JOUR
+TI  - The persuasive effects of political microtargeting in the age of generative artificial intelligence
+AU  - Simchon, A.
+AU  - Edwards, M.
+AU  - Lewandowsky, S.
+AB  - The increasing availability of microtargeted advertising and the accessibility of generative artificial intelligence (AI) tools, such as ChatGPT, have raised concerns about the potential misuse of large language models in scaling microtargeting efforts for political purposes. Recent technological advancements, involving generative AI and personality inference from consumed text, can potentially create a highly scalable “manipulation machine” that targets individuals based on their unique vulnerabilities without requiring human input. This paper presents four studies examining the effectiveness of this putative “manipulation machine.” The results demonstrate that personalized political ads tailored to individuals’ personalities are more effective than nonpersonalized ads (studies 1a and 1b). Additionally, we showcase the feasibility of automatically generating and validating these personalized ads on a large scale (studies 2a and 2b). These findings highlight the potential risks of utilizing AI and microtargeting to craft political messages that resonate with individuals based on their personality traits. This should be an area of concern to ethicists and policy makers. © The Author(s) 2024.
+PY  - 2024
+JO  - PNAS Nexus
+T2  - PNAS Nexus
+VL  - 3
+IS  - 2
+DO  - 10.1093/pnasnexus/pgae035
+N1  - Covidence #: #4959
+N1  - Study: Simchon 2024
+ER  - 
+
+TY  - JOUR
+TI  - Building an on-demand avatar-based health intervention for behavior change
+AU  - Lisetti, C.
+AU  - Yasavur, U.
+AU  - De Leon, C.
+AU  - Amini, R.
+AU  - Rishe, N.
+AU  - Visser, U.
+AB  - We discuss the design and implementation of the prototype of an avatar-based health system aimed at providing people access to an effective behavior change intervention which can help them to find and cultivate motivation to change unhealthy lifestyles. An empathic Embodied Conversational Agent (ECA) delivers the intervention. The health dialog is directed by a computational model of Motivational Interviewing, a novel effective face-to-face patient-centered counseling style which respects an individual's pace toward behavior change. Although conducted on a small sample size, results of a preliminary user study to asses users' acceptance of the avatar counselor indicate that the system prototype is well accepted by 75% of users. Copyright © 2012, Association for the Advancement of Artificial Intelligence. All rights reserved.
+PY  - 2012
+JO  - Proceedings of the 25th International Florida Artificial Intelligence Research Society Conference, FLAIRS-25
+T2  - Proceedings of the 25th International Florida Artificial Intelligence Research Society Conference, FLAIRS-25
+SP  - 175-180
+N1  - Covidence #: #6403
+N1  - Study: Lisetti 2012
+ER  - 
+
+TY  - JOUR
+TI  - Addressing the Challenge of Common Chronic Diseases — A View from the FDA
+AU  - Warraich, H.J.
+AU  - Marston, H.D.
+AU  - Califf, R.M.
+PY  - 2024
+JO  - New England Journal of Medicine
+T2  - New England Journal of Medicine
+VL  - 390
+IS  - 6
+SP  - 490-492
+DO  - 10.1056/NEJMp2313217
+N1  - Covidence #: #4971
+N1  - Study: Warraich 2024
+ER  - 
+
+TY  - JOUR
+TI  - Teaching Models to Balance Resisting and Accepting Persuasion
+AU  - Stengel-Eskin, E.
+AU  - Hase, P.
+AU  - Bansal, M.
+AB  - Large language models (LLMs) are susceptible to persuasion, which can pose risks when models are faced with an adversarial interlocutor. We take a first step towards defending models against persuasion while also arguing that defense against adversarial (i.e. negative) persuasion is only half of the equation: models should also be able to accept beneficial (i.e. positive) persuasion to improve their answers. We show that optimizing models for only one side results in poor performance on the other. In order to balance positive and negative persuasion, we introduce Persuasion-Balanced Training (or PBT), which leverages multi-agent recursive dialogue trees to create data and trains models via preference optimization to accept persuasion when appropriate. PBT allows us to use data generated from dialogues between smaller 7-8B models for training much larger 70B models. Moreover, PBT consistently improves resistance to misinformation and resilience to being challenged while also resulting in the best overall performance on holistic data containing both positive and negative persuasion. Crucially, we show that PBT models are better teammates in multi-agent debates across two domains (trivia and commonsense QA). We find that without PBT, pairs of stronger and weaker models have unstable performance, with the order in which the models present their answers determining whether the team obtains the stronger or weaker model’s performance. PBT leads to better and more stable results and less order dependence, with the stronger model consistently pulling the weaker one up.
+PY  - 2024
+UR  - 135.0
+N1  - Covidence #: #7570
+N1  - Study: Stengel-Eskin 2024
+ER  - 
