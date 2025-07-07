@@ -138,6 +138,6 @@ def process_folders(root_folder):
     print("\nProcessing complete.")
 
 if __name__ == '__main__':
-    folder_to_process = 'C:/Users/Admin/Documents/Max Planck ARC/AI persuasion/ai_transparency/data/test_conversion/PDF'
+    folder_to_process = './data/test_conversion/PDF'
     process_folders(folder_to_process)
     
