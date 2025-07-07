@@ -41,7 +41,8 @@ def find_references_section(text):
         r'\bCOPYRIGHT\b',
         r'\bERRATA\b',
         r'\bCORRECTIONS\b',
-        r'\bPATENTS\b'
+        r'\bPATENTS\b',
+        r'\b--- Extracted Tables ---\b'
     ]
     
     # Find all potential references section starts

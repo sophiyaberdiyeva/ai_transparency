@@ -1,48 +1,89 @@
+#Code written in coauthorship with Gemini Pro
+
 import os
+import re
 import pytesseract
 from pdf2image import convert_from_path
 from PyPDF2 import PdfReader
 from PIL import Image
 
 # --- Configuration ---
+# Set the path to the Tesseract executable.
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-def extract_text_from_pdf(pdf_path):
+def beautify_text(text: str):
     """
-    Extracts text from a PDF file. It first tries to extract text directly.
-    If that fails or returns very little text, it assumes the PDF is an image
-    and uses OCR to extract the text.
+    Removes unnecessary line breaks and extra spaces from the text.
+    It attempts to rejoin paragraphs that were split across lines,
+    including words that were hyphenated.
+    
+    Args:
+        text (str): The raw extracted text.
 
+    Returns:
+        str: The beautified text.
+    """
+    # 1. Handle lines ending with double spaces followed by line breaks
+    # Convert double spaces at line end to single space and join with next line
+    text = re.sub(r'  \n([a-zA-Z0-9\-–—])', r' \1', text)
+    
+    # 2. Rejoin words that were hyphenated across lines with space after syllable
+    # (e.g., "so -\nme" -> "some")
+    text = re.sub(r'(\w+) -\n(\w+)', r'\1\2', text)
+    
+    # 3. Rejoin words that were hyphenated with hyphen on separate line
+    # (e.g., "ad\n-\ndress" -> "address")
+    text = re.sub(r'(\w+)\n-\n(\w+)', r'\1\2', text)
+    
+    # 4. Rejoin words that were hyphenated across lines without space
+    # (e.g., "so-\nme" -> "some")
+    text = re.sub(r'(\w+)-\n(\w+)', r'\1\2', text)
+    
+    # 5. Replace multiple newlines with just two, to standardize paragraph breaks
+    text = re.sub(r'\n\s*\n', '\n\n', text)
+    
+    # 6. Join lines that are likely part of the same paragraph.
+    # This looks for a line ending in a lowercase letter, comma, or parentheses, followed
+    # by a newline and another letter/digit/dash, and replaces the newline with a space.
+    text = re.sub(r'([a-z,0-9\(\)<>:\'\”=])\n([\(\)-–—=a-zA-Z0-9])', r'\1 \2', text)
+    
+    # 7. Remove line breaks after paragraphs that end with whitespace
+    # (but keep the whitespace itself)
+    text = re.sub(r'(\s)\n([a-zA-Z0-9\-–—=])', r'\1\2', text)
+    
+    # Correct common OCR misrecognition: 'Al' (as in Artificial Intelligence) → 'AI'
+    text = re.sub(r'\bAl\b', 'AI', text)
+    
+    return text.strip()
+
+
+def extract_text_from_pdf(pdf_path: str):
+    """
+    Extracts text from a PDF file using OCR. All PDFs are treated as image-based
+    and processed through OCR for consistent text extraction.
+    
     Args:
         pdf_path (str): The full path to the PDF file.
 
     Returns:
-        str: The extracted text from the PDF.
+        str: The extracted and cleaned text.
     """
     text = ""
     try:
-        # Try to extract text directly from the PDF
-        reader = PdfReader(pdf_path)
-        for page in reader.pages:
-            page_text = page.extract_text()
-            if page_text:
-                text += page_text + "\n"
-
-        # If the extracted text is very short, it might be an image-based PDF
-        if len(text.strip()) < 100:
-            print(f"'{os.path.basename(pdf_path)}' seems to be image-based. Trying OCR...")
-            text = ocr_from_pdf(pdf_path)
-
+        print(f"Processing '{os.path.basename(pdf_path)}' with OCR...")
+        text = ocr_from_pdf(pdf_path)
+        
+        if not text.strip():
+            print(f"No text could be extracted from '{os.path.basename(pdf_path)}'.")
+            
     except Exception as e:
-        print(f"Could not read text directly from '{os.path.basename(pdf_path)}'. Error: {e}")
-        print("Attempting OCR as a fallback.")
-        try:
-            text = ocr_from_pdf(pdf_path)
-        except Exception as ocr_e:
-            print(f"OCR also failed for '{os.path.basename(pdf_path)}'. Error: {ocr_e}")
-            return "" # Return empty string if both methods fail
+        print(f"OCR failed for '{os.path.basename(pdf_path)}'. Error: {e}")
+        text = "" # Start with empty text if OCR fails
 
-    return text
+    # Beautify the extracted text
+    beautified_text = beautify_text(text)
+    
+    return beautified_text
 
 def ocr_from_pdf(pdf_path):
     """
@@ -70,42 +111,29 @@ def ocr_from_pdf(pdf_path):
 def process_folders(root_folder):
     """
     Iterates through all subfolders of a given root folder, finds PDF files,
-    extracts their text, and saves it to a .txt file in the same subfolder.
-
-    Args:
-        root_folder (str): The path to the main folder to start processing from.
+    extracts their text and tables, and saves it to a .txt file.
     """
-    if not os.path.isdir(root_folder):
-        print(f"Error: The folder '{root_folder}' does not exist.")
-        return
-
     print(f"Starting to process folders inside '{root_folder}'...")
 
-    # Walk through the directory tree
     for dirpath, _, filenames in os.walk(root_folder):
-        print(f"\nScanning folder: '{dirpath}'")
         for filename in filenames:
             if filename.lower().endswith('.pdf'):
                 pdf_full_path = os.path.join(dirpath, filename)
-                print(f"Found PDF: '{filename}'")
 
-                # Define the output text file path
                 txt_filename = os.path.splitext(filename)[0] + '.txt'
                 txt_full_path = os.path.join(dirpath, txt_filename)
 
-                # Extract text from the PDF
-                extracted_text = extract_text_from_pdf(pdf_full_path)
+                extracted_content = extract_text_from_pdf(pdf_full_path)
 
-                if extracted_text.strip():
-                    # Write the extracted text to a .txt file
+                if extracted_content.strip():
                     try:
                         with open(txt_full_path, 'w', encoding='utf-8') as txt_file:
-                            txt_file.write(extracted_text)
-                        print(f"Successfully saved text to '{txt_filename}'")
+                            txt_file.write(extracted_content)
+                        print(f"Successfully saved content to '{txt_filename}'")
                     except IOError as e:
                         print(f"Error writing to file '{txt_full_path}'. Error: {e}")
                 else:
-                    print(f"No text could be extracted from '{filename}'. No .txt file created.")
+                    print(f"No content could be extracted from '{filename}'. No .txt file created.")
 
     print("\nProcessing complete.")
 
