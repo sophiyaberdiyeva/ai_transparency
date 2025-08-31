@@ -73,10 +73,7 @@ def process_scopus_files(file_paths: List[str], output_dir: str = 'output') -> p
             (combined_df['abstract'] != '')
         ]
         print(f"Records after cleaning: {len(combined_df)}")
-        
-        # Generate RIS files
-        create_ris_files(combined_df, output_dir)
-        
+                
         return combined_df
     else:
         print("No data was extracted from any files.")
@@ -177,7 +174,7 @@ def format_ris_record(row: pd.Series, record_id: int) -> str:
     
     return '\n'.join(ris_record)
 
-# Example usage
+# Usage
 if __name__ == "__main__":
     # Define your file paths
     file_paths = [
@@ -201,3 +198,11 @@ if __name__ == "__main__":
         print(f"- Records with authors: {len(combined_data[combined_data['author'] != ''])}")
         print(f"- Records with abstracts: {len(combined_data[combined_data['abstract'] != ''])}")
         print(f"- Records with PDF links: {len(combined_data[combined_data['pdf_link'] != ''])}")
+        
+     
+# After manually fixing article "Unsupervised behavior change detection in multidimensional data streams for maritime traffic monitoring" in the csv 
+        
+# Generate RIS files
+
+fixed_df = pd.read_csv('data/ris_files/combined_data.csv')
+create_ris_files(fixed_df, 'data/ris_files')

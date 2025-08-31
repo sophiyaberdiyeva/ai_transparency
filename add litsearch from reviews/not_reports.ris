@@ -1,0 +1,952 @@
+TY  - GEN
+TI  - Towards monosemanticity: decomposing language models with dictionary learning
+AU  - Bricken, T.
+AU  - Templeton, A.
+AU  - Batson, J.
+AU  - Chen, B.
+AU  - Jermyn, A.
+AU  - Conerly, T.
+AU  - Turner, N. L.
+AU  - Anil, C.
+AU  - Denison, C.
+AU  - Askell, A.
+AU  - Lasenby, R.
+AU  - Wu, Y.
+AU  - Kravec, S.
+AU  - Schiefer, N.
+AU  - Maxwell, T.
+AU  - Joseph, N.
+AU  - Tamkin, A.
+AU  - Nguyen, K.
+AU  - McLean, B.
+AU  - Burke, J. E.
+AU  - Hume, T.
+AU  - Carter, S.
+AU  - Henighan, T.
+AU  - Olah, C.
+DA  - 2023///
+PY  - 2023
+UR  - https://transformer-circuits.pub/2023/monosemantic-features
+ER  - 
+
+TY  - GEN
+TI  - Language models are few-shot learners
+AU  - Brown, T. B.
+AU  - Mann, B.
+AU  - Ryder, N.
+AU  - Subbiah, M.
+AU  - Kaplan, J.
+AU  - Dhariwal, P.
+AU  - Neelakantan, A.
+AU  - Shyam, P.
+AU  - Sastry, G.
+AU  - Askell, A.
+AU  - Agarwal, S.
+AU  - Herbert-Voss, A.
+AU  - Krueger, G.
+AU  - Henighan, T.
+AU  - Child, R.
+AU  - Ramesh, A.
+AU  - Ziegler, D. M.
+AU  - Wu, J.
+AU  - Winter, C.
+AU  - Hesse, C.
+AU  - Chen, M.
+AU  - Sigler, E.
+AU  - Litwin, M.
+AU  - Gray, S.
+AU  - Chess, B.
+AU  - Clark, J.
+AU  - Berner, C.
+AU  - McCandlish, S.
+AU  - Radford, A.
+AU  - Sutskever, I.
+AU  - Amodei, D.
+DA  - 2020///
+PY  - 2020
+UR  - https://arxiv.org/abs/2005.14165
+ER  - 
+
+TY  - GEN
+TI  - Discovering latent knowledge in language models without supervision
+AU  - Burns, C.
+AU  - Ye, H.
+AU  - Klein, D.
+AU  - Steinhardt, J.
+DA  - 2022///
+PY  - 2022
+UR  - https://arxiv.org/abs/2212.03827
+ER  - 
+
+TY  - GEN
+TI  - Artificial influence: an analysis of AI-driven persuasion
+AU  - Burtell, M.
+AU  - Woodside, T.
+DA  - 2023///
+PY  - 2023
+UR  - http://arxiv.org/abs/2303.08721
+ER  - 
+
+TY  - GEN
+TI  - Open problems and fundamental limitations of reinforcement learning from human feedback
+AU  - Casper, S.
+AU  - Davies, X.
+AU  - Shi, C.
+AU  - Gilbert, T. K.
+AU  - Scheurer, J.
+AU  - Rando, J.
+AU  - Freedman, R.
+AU  - Korbak, T.
+AU  - Lindner, D.
+AU  - Freire, P.
+AU  - Wang, T.
+AU  - Marks, S.
+AU  - Segerie, C.-R.
+AU  - Carroll, M.
+AU  - Peng, A.
+AU  - Christoffersen, P.
+AU  - Damani, M.
+AU  - Slocum, S.
+AU  - Anwar, U.
+AU  - Siththaranjan, A.
+AU  - Nadeau, M.
+AU  - Michaud, E. J.
+AU  - Pfau, J.
+AU  - Krasheninnikov, D.
+AU  - Chen, X.
+AU  - Langosco, L.
+AU  - Hase, P.
+AU  - Bıyık, E.
+AU  - Dragan, A.
+AU  - Krueger, D.
+AU  - Sadigh, D.
+AU  - Hadfield-Menell, D.
+DA  - 2023///
+PY  - 2023
+UR  - http://arxiv.org/abs/2307.15217
+ER  - 
+
+TY  - GEN
+TI  - Supervising strong learners by amplifying weak experts
+AU  - Christiano, P.
+AU  - Shlegeris, B.
+AU  - Amodei, D.
+DA  - 2018///
+PY  - 2018
+UR  - https://arxiv.org/abs/1810.08575
+ER  - 
+
+TY  - GEN
+TI  - Eliciting latent knowledge: how to tell if your eyes deceive you
+AU  - Christiano, P.
+AU  - Cotra, A.
+AU  - Xu, M.
+DA  - 2021///
+PY  - 2021
+UR  - https://docs.google.com/document/d/1WwsnJQstPq91_Yh-Ch2XRL8H_EpsnjrC1dwZXR37PC8/edit#heading=h.jrzi4atzacns
+ER  - 
+
+TY  - GEN
+TI  - Artificial Intelligence Act. Amendments adopted on 14 June 2023
+AU  - European Parliament
+DA  - 2023///
+PY  - 2023
+UR  - https://www.europarl.europa.eu/doceo/document/TA-9-2023-0236_EN.pdf
+N1  - <p>Amendments adopted by the European Parliament on 14 June 2023 on the proposal for a regulation of the European Parliament and of the Council on laying down harmonised rules on artificial intelligence (Artificial Intelligence Act) and amending certain Union legislative acts (COM(2021)0206 – C9-0146/2021 – 2021/0106(COD)).</p>
+ER  - 
+
+TY  - GEN
+TI  - Challenges with unsupervised LLM knowledge discovery
+AU  - Farquhar, S.
+AU  - Varma, V.
+AU  - Kenton, Z.
+AU  - Gasteiger, J.
+AU  - Mikulik, V.
+AU  - Shah, R.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2312.10029
+ER  - 
+
+TY  - GEN
+TI  - Strengthening the EU AI Act: defining key terms on AI manipulation
+AU  - Franklin, M.
+AU  - Tomei, P. M.
+AU  - Gorman, R.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2308.16364
+ER  - 
+
+TY  - GEN
+TI  - Improving alignment of dialogue agents via targeted human judgements
+AU  - Glaese, A.
+AU  - McAleese, N.
+AU  - Trębacz, M.
+AU  - Aslanides, J.
+AU  - Firoiu, V.
+AU  - Ewalds, T.
+AU  - Rauh, M.
+AU  - Weidinger, L.
+AU  - Chadwick, M.
+AU  - Thacker, P.
+AU  - Campbell-Gillingham, L.
+AU  - Uesato, J.
+AU  - Huang, P.-S.
+AU  - Comanescu, R.
+AU  - Yang, F.
+AU  - See, A.
+AU  - Dathathri, S.
+AU  - Greig, R.
+AU  - Chen, C.
+AU  - Fritz, D.
+AU  - Elias, J. S.
+AU  - Green, R.
+AU  - Mokrá, S.
+AU  - Fernando, N.
+AU  - Wu, B.
+AU  - Foley, R.
+AU  - Young, S.
+AU  - Gabriel, I.
+AU  - Isaac, W.
+AU  - Mellor, J.
+AU  - Hassabis, D.
+AU  - Kavukcuoglu, K.
+AU  - Hendricks, L. A.
+AU  - Irving, G.
+DA  - 2022///
+PY  - 2022
+UR  - https://arxiv.org/abs/2209.14375
+ER  - 
+
+TY  - GEN
+TI  - Generative language models and automated influence operations: emerging threats and potential mitigations
+AU  - Goldstein, A.
+AU  - Sastry, G.
+AU  - Musser, M.
+AU  - DiResta, R.
+AU  - Gentzel, M.
+AU  - Sedova, K.
+DA  - 2023///
+PY  - 2023
+UR  - http://arxiv.org/abs/2301.04246
+ER  - 
+
+TY  - GEN
+TI  - InstructDial: improving zero and few-shot generalization in dialogue through instruction tuning
+AU  - Gupta, P.
+AU  - Jiao, C.
+AU  - Yeh, Y.-T.
+AU  - Mehri, S.
+AU  - Eskenazi, M.
+AU  - Bigham, J. P.
+DA  - 2022///
+PY  - 2022
+UR  - https://arxiv.org/abs/2205.12673
+ER  - 
+
+TY  - GEN
+TI  - Deception abilities emerged in large language models
+AU  - Hagendorff, T.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2307.16513
+ER  - 
+
+TY  - GEN
+TI  - AI safety via debate
+AU  - Irving, G.
+AU  - Christiano, P.
+AU  - Amodei, D.
+DA  - 2018///
+PY  - 2018
+UR  - https://arxiv.org/abs/1805.00899
+ER  - 
+
+TY  - GEN
+TI  - Challenges and applications of large language models
+AU  - Kaddour, J.
+AU  - Harris, J.
+AU  - Mozes, M.
+AU  - Bradley, H.
+AU  - Raileanu, R.
+AU  - McHardy, R.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2307.10169
+ER  - 
+
+TY  - GEN
+TI  - Alignment of language agents
+AU  - Kenton, Z.
+AU  - Everitt, T.
+AU  - Weidinger, L.
+AU  - Gabriel, I.
+AU  - Mikulik, V.
+AU  - Irving, G.
+DA  - 2021///
+PY  - 2021
+UR  - http://arxiv.org/abs/2103.14659
+ER  - 
+
+TY  - GEN
+TI  - Classifying constructive comments
+AU  - Kolhatkar, V.
+AU  - Thain, N.
+AU  - Sorensen, J.
+AU  - Dixon, L.
+AU  - Taboada, M.
+DA  - 2020///
+PY  - 2020
+UR  - https://arxiv.org/abs/2004.05476
+ER  - 
+
+TY  - GEN
+TI  - Scalable agent alignment via reward modeling: a research direction
+AU  - Leike, J.
+AU  - Krueger, D.
+AU  - Everitt, T.
+AU  - Martic, M.
+AU  - Maini, V.
+AU  - Legg, S.
+DA  - 2018///
+PY  - 2018
+UR  - https://arxiv.org/abs/1811.07871
+ER  - 
+
+TY  - GEN
+TI  - Still no lie detector for language models: probing empirical and conceptual roadblocks
+AU  - Levinstein, B. A.
+AU  - Herrmann, D. A.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2307.00175
+ER  - 
+
+TY  - GEN
+TI  - The geometry of truth: emergent linear structure in large language model representations of true/false datasets
+AU  - Marks, S.
+AU  - Tegmark, M.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2310.06824
+ER  - 
+
+TY  - GEN
+TI  - Debate helps supervise unreliable experts
+AU  - Michael, J.
+AU  - Mahdi, S.
+AU  - Rein, D.
+AU  - Petty, J.
+AU  - Dirani, J.
+AU  - Padmakumar, V.
+AU  - Bowman, S. R.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2311.08702
+ER  - 
+
+TY  - GEN
+TI  - DetectGPT: zero-shot machine-generated text detection using probability curvature
+AU  - Mitchell, E.
+AU  - Lee, Y.
+AU  - Khazatsky, A.
+AU  - Manning, C. D.
+AU  - Finn, C.
+DA  - 2023///
+PY  - 2023
+UR  - http://arxiv.org/abs/2301.11305
+ER  - 
+
+TY  - GEN
+TI  - Use of llms for illicit purposes: threats, prevention measures, and vulnerabilities
+AU  - Mozes, M.
+AU  - He, X.
+AU  - Kleinberg, B.
+AU  - Griffin, L. D.
+DA  - 2023///
+PY  - 2023
+UR  - http://arxiv.org/abs/2308.12833
+ER  - 
+
+TY  - GEN
+TI  - Towards agile text classifiers for everyone
+AU  - Mozes, M.
+AU  - Hoffmann, J.
+AU  - Tomanek, K.
+AU  - Kouate, M.
+AU  - Thain, N.
+AU  - Yuan, A.
+AU  - Bolukbasi, T.
+AU  - Dixon, L.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2302.06541
+ER  - 
+
+TY  - GEN
+TI  - Training language models to follow instructions with human feedback
+AU  - Ouyang, L.
+AU  - Wu, J.
+AU  - Jiang, X.
+AU  - Almeida, D.
+AU  - Wainwright, C. L.
+AU  - Mishkin, P.
+AU  - Zhang, C.
+AU  - Agarwal, S.
+AU  - Slama, K.
+AU  - Ray, A.
+AU  - Schulman, J.
+AU  - Hilton, J.
+AU  - Kelton, F.
+AU  - Miller, L.
+AU  - Simens, M.
+AU  - Askell, A.
+AU  - Welinder, P.
+AU  - Christiano, P.
+AU  - Leike, J.
+AU  - Lowe, R.
+DA  - 2022///
+PY  - 2022
+UR  - https://arxiv.org/abs/2203.02155
+ER  - 
+
+TY  - GEN
+TI  - How to catch an AI liar: lie detection in black-box LLMs by asking unrelated questions
+AU  - Pacchiardi, L.
+AU  - Chan, A. J.
+AU  - Mindermann, S.
+AU  - Moscovitz, I.
+AU  - Pan, A. Y.
+AU  - Gal, Y.
+AU  - Evans, O.
+AU  - Brauner, J.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2309.15840
+ER  - 
+
+TY  - GEN
+TI  - AI deception: a survey of examples, risks, and potential solutions
+AU  - Park, P. S.
+AU  - Goldstein, S.
+AU  - O’Gara, A.
+AU  - Chen, M.
+AU  - Hendrycks, D.
+DA  - 2023///
+PY  - 2023
+UR  - http://arxiv.org/abs/2308.14752
+ER  - 
+
+TY  - GEN
+TI  - Red teaming language models with language models
+AU  - Perez, E.
+AU  - Huang, S.
+AU  - Song, F.
+AU  - Cai, T.
+AU  - Ring, R.
+AU  - Aslanides, J.
+AU  - Glaese, A.
+AU  - McAleese, N.
+AU  - Irving, G.
+DA  - 2022///
+PY  - 2022
+UR  - https://arxiv.org/abs/2202.03286
+ER  - 
+
+TY  - GEN
+TI  - Discovering language model behaviors with model-written evaluations
+AU  - Perez, E.
+AU  - Ringer, S.
+AU  - Lukošiu¯t˙e, K.
+AU  - Nguyen, K.
+AU  - Chen, E.
+AU  - Heiner, S.
+AU  - Pettit, C.
+AU  - Olsson, C.
+AU  - Kundu, S.
+AU  - Kadavath, S.
+AU  - Jones, A.
+AU  - Chen, A.
+AU  - Mann, B.
+AU  - Israel, B.
+AU  - Seethor, B.
+AU  - McKinnon, C.
+AU  - Olah, C.
+AU  - Yan, D.
+AU  - Amodei, D.
+AU  - Drain, D.
+AU  - Li, D.
+AU  - Tran-Johnson, E.
+AU  - Khundadze, G.
+AU  - Kernion, J.
+AU  - Landis, J.
+AU  - Kerr, J.
+AU  - Mueller, J.
+AU  - Hyun, J.
+AU  - Landau, J.
+AU  - Ndousse, K.
+AU  - Goldberg, L.
+AU  - Lovitt, L.
+AU  - Lucas, M.
+AU  - Sellitto, M.
+AU  - Zhang, M.
+AU  - Kingsland, N.
+AU  - Elhage, N.
+AU  - Joseph, N.
+AU  - Mercado, N.
+AU  - DasSarma, N.
+AU  - Rausch, O.
+AU  - Larson, R.
+AU  - McCandlish, S.
+AU  - Johnston, S.
+AU  - Kravec, S.
+AU  - Showk, S. E.
+AU  - Lanham, T.
+AU  - Telleen-Lawton, T.
+AU  - Brown, T.
+AU  - Henighan, T.
+AU  - Hume, T.
+AU  - Bai, Y.
+AU  - Hatfield-Dodds, Z.
+AU  - Clark, J.
+AU  - Bowman, S. R.
+AU  - Askell, A.
+AU  - Grosse, R.
+AU  - Hernandez, D.
+AU  - Ganguli, D.
+AU  - Hubinger, E.
+AU  - Schiefer, N.
+AU  - Kaplan, J.
+DA  - 2022///
+PY  - 2022
+UR  - http://arxiv.org/abs/2212.09251
+ER  - 
+
+TY  - GEN
+TI  - Few-shot instruction prompts for pretrained language models to detect social biases
+AU  - Prabhumoye, S.
+AU  - Kocielnik, R.
+AU  - Shoeybi, M.
+AU  - Anandkumar, A.
+AU  - Catanzaro, B.
+DA  - 2021///
+PY  - 2021
+UR  - https://arxiv.org/abs/2112.07868
+ER  - 
+
+TY  - GEN
+TI  - Language models are unsupervised multitask learners
+AU  - Radford, A.
+AU  - Wu, J.
+AU  - Child, R.
+AU  - Luan, D.
+AU  - Amodei, D.
+AU  - Sutskever, I.
+DA  - 2019///
+PY  - 2019
+UR  - https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf
+ER  - 
+
+TY  - GEN
+TI  - Lying in persuasion
+AU  - Rozenas, A.
+AU  - Luo, Z.
+DA  - 2023///
+PY  - 2023
+UR  - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3878448
+ER  - 
+
+TY  - GEN
+TI  - The Goldilocks of pragmatic understanding: fine-tuning strategy matters for implicature resolution by LLMs
+AU  - Ruis, L.
+AU  - Khan, A.
+AU  - Biderman, S.
+AU  - Hooker, S.
+AU  - Rocktäschel, T.
+AU  - Grefenstette, E.
+DA  - 2022///
+PY  - 2022
+UR  - https://arxiv.org/abs/2210.14986
+ER  - 
+
+TY  - GEN
+TI  - Toward transparent AI: a survey on interpreting the inner structures of deep neural networks
+AU  - Räuker, T.
+AU  - Ho, A.
+AU  - Casper, S.
+AU  - Hadfield-Menell, D.
+DA  - 2022///
+PY  - 2022
+UR  - https://arxiv.org/abs/2207.13243
+ER  - 
+
+TY  - GEN
+TI  - Self-critiquing models for assisting human evaluators
+AU  - Saunders, W.
+AU  - Yeh, C.
+AU  - Wu, J.
+AU  - Bills, S.
+AU  - Ouyang, L.
+AU  - Ward, J.
+AU  - Leike, J.
+DA  - 2022///
+PY  - 2022
+UR  - https://arxiv.org/abs/2206.05802
+ER  - 
+
+TY  - GEN
+TI  - Ignore this title and HackAPrompt: exposing systemic vulnerabilities of LLMs through a global scale prompt hacking competition
+AU  - Schulhoff, S.
+AU  - Pinto, J.
+AU  - Khan, A.
+AU  - Bouchard, L.-F.
+AU  - Si, C.
+AU  - Anati, S.
+AU  - Tagliabue, V.
+AU  - Kost, A. L.
+AU  - Carnahan, C.
+AU  - Boyd-Graber, J.
+DA  - 2023///
+PY  - 2023
+UR  - http://arxiv.org/abs/2311.16119
+ER  - 
+
+TY  - GEN
+TI  - On second thought, let’s not think step by step! Bias and toxicity in zero-shot reasoning
+AU  - Shaikh, O.
+AU  - Zhang, H.
+AU  - Held, W.
+AU  - Bernstein, M.
+AU  - Yang, D.
+DA  - 2022///
+PY  - 2022
+UR  - https://arxiv.org/abs/2212.08061
+ER  - 
+
+TY  - GEN
+TI  - Model evaluation for extreme risks
+AU  - Shevlane, T.
+AU  - Farquhar, S.
+AU  - Garfinkel, B.
+AU  - Phuong, M.
+AU  - Whittlestone, J.
+AU  - Leung, J.
+AU  - Kokotajlo, D.
+AU  - Marchal, N.
+AU  - Anderljung, M.
+AU  - Kolt, N.
+AU  - Ho, L.
+AU  - Siddarth, D.
+AU  - Avin, S.
+AU  - Hawkins, W.
+AU  - Kim, B.
+AU  - Gabriel, I.
+AU  - Bolina, V.
+AU  - Clark, J.
+AU  - Bengio, Y.
+AU  - Christiano, P.
+AU  - Dafoe, A.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2305.15324
+ER  - 
+
+TY  - GEN
+TI  - Sentiment adaptive end-to-end dialog systems
+AU  - Shi, W.
+AU  - Yu, Z.
+DA  - 2018///
+PY  - 2018
+UR  - https://arxiv.org/abs/1804.10731
+ER  - 
+
+TY  - GEN
+TI  - Enhancing human persuasion with large language models
+AU  - Shin, M.
+AU  - Kim, J.
+DA  - 2023///
+PY  - 2023
+UR  - http://arxiv.org/abs/2311.16466
+ER  - 
+
+TY  - GEN
+TI  - Learning to summarize from human feedback
+AU  - Stiennon, N.
+AU  - Ouyang, L.
+AU  - Wu, J.
+AU  - Ziegler, D. M.
+AU  - Lowe, R.
+AU  - Voss, C.
+AU  - Radford, A.
+AU  - Amodei, D.
+AU  - Christiano, P.
+DA  - 2020///
+PY  - 2020
+UR  - https://arxiv.org/abs/2009.01325
+ER  - 
+
+TY  - GEN
+TI  - Against algorithmic exploitation of human vulnerabilities
+AU  - Strümke, I.
+AU  - Slavkovik, M.
+AU  - Stachl, C.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2301.04993
+ER  - 
+
+TY  - GEN
+TI  - Augmenting language models with long-term memory
+AU  - Wang, W.
+AU  - Dong, L.
+AU  - Cheng, H.
+AU  - Liu, X.
+AU  - Yan, X.
+AU  - Gao, J.
+AU  - Wei, F.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2306.07174
+ER  - 
+
+TY  - GEN
+TI  - Simple synthetic data reduces sycophancy in large language models
+AU  - Wei, J.
+AU  - Huang, D.
+AU  - Lu, Y.
+AU  - Zhou, D.
+AU  - Le, Q. V.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2308.03958
+ER  - 
+
+TY  - GEN
+TI  - Sociotechnical safety evaluation of generative AI systems
+AU  - Weidinger, L.
+AU  - Rauh, M.
+AU  - Marchal, N.
+AU  - Manzini, A.
+AU  - Hendricks, L. A.
+AU  - Mateos-Garcia, J.
+AU  - Bergman, S.
+AU  - Kay, J.
+AU  - Griffin, C.
+AU  - Bariach, B.
+AU  - Gabriel, I.
+AU  - Rieser, V.
+AU  - Isaac, W.
+DA  - 2023///
+PY  - 2023
+UR  - http://arxiv.org/abs/2310.11986
+ER  - 
+
+TY  - GEN
+TI  - A prompt pattern catalog to enhance prompt engineering with ChatGPT
+AU  - White, J.
+AU  - Fu, Q.
+AU  - Hays, S.
+AU  - Sandborn, M.
+AU  - Olea, C.
+AU  - Gilbert, H.
+AU  - Elnashar, A.
+AU  - Spencer-Smith, J.
+AU  - Schmidt, D. C.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2302.11382
+ER  - 
+
+TY  - GEN
+TI  - Assessing prompt injection risks in 200+ custom GPTs
+AU  - Yu, J.
+AU  - Wu, Y.
+AU  - Shu, D.
+AU  - Jin, M.
+AU  - Xing, X.
+DA  - 2023///
+PY  - 2023
+UR  - https://arxiv.org/abs/2311.11538
+ER  - 
+
+TY  - GEN
+TI  - Large language models reflect the ideology of their creators
+AU  - Buyl, Maarten
+AU  - Rogiers, Alexander
+AU  - Noels, Sander
+AU  - Dominguez-Catena, Iris
+AU  - Heiter, Edith
+AU  - Romero, Raphael
+AU  - Johary, Iman
+AU  - Mara, Alexandru-Cristian
+AU  - Lijffijt, Jefrey
+AU  - De Bie, Tijl
+DA  - 2024///
+PY  - 2024
+PB  - arXiv
+UR  - https://arxiv.org/abs/2410.18417
+N1  - <p>arXiv:2410.18417</p>
+ER  - 
+
+TY  - GEN
+TI  - Large Language Models are as persuasive as humans, but how? About the cognitive effort and moral-emotional language of LLM arguments
+AU  - Carrasco-Farre, Carlos
+DA  - 2024/04//
+PY  - 2024
+PB  - arXiv
+UR  - http://arxiv.org/abs/2404.09329
+N1  - <p>arXiv:2404.09329 [cs]</p>
+ER  - 
+
+TY  - GEN
+TI  - Combating Misinformation in the Age of LLMs: Opportunities and Challenges
+AU  - Chen, Canyu
+AU  - Shu, Kai
+DA  - 2023/11//
+PY  - 2023
+PB  - arXiv
+UR  - http://arxiv.org/abs/2311.05656
+N1  - <p>arXiv:2311.05656 [cs]</p>
+ER  - 
+
+TY  - GEN
+TI  - Durably reducing conspiracy beliefs through dialogues with AI
+AU  - Costello, Thomas H.
+AU  - Pennycook, Gordon
+AU  - Rand, David
+DA  - 2024/04//
+PY  - 2024
+PB  - OSF Preprints
+UR  - https://osf.io/xcwdn
+ER  - 
+
+TY  - GEN
+TI  - Susceptibility to Influence of Large Language Models
+AU  - Griffin, Lewis D.
+AU  - Kleinberg, Bennett
+AU  - Mozes, Maximilian
+AU  - Mai, Kimberly T.
+AU  - Vau, Maria
+AU  - Caldwell, Matthew
+AU  - Marvor-Parker, Augustine
+DA  - 2023/03//
+PY  - 2023
+PB  - arXiv
+UR  - http://arxiv.org/abs/2303.06074
+N1  - <p>arXiv:2303.06074 [cs]</p>
+ER  - 
+
+TY  - GEN
+TI  - Comparing the persuasiveness of role playing large language models and human experts on polarized U.S. political issues
+AU  - Hackenburg, Kobi
+AU  - Ibrahim, Lujain
+AU  - Tappin, Ben M.
+AU  - Tsakiris, Manos
+DA  - 2023/12//
+PY  - 2023
+PB  - OSF Preprints
+UR  - https://osf.io/ey8db
+ER  - 
+
+TY  - GEN
+TI  - Evidence of a log scaling law for political persuasion with large language models
+AU  - Hackenburg, Kobi
+AU  - Tappin, Ben M.
+AU  - Röttger, Paul
+AU  - Hale, Scott
+AU  - Bright, Jonathan
+AU  - Margetts, Helen
+DA  - 2024/06//
+PY  - 2024
+PB  - arXiv
+UR  - http://arxiv.org/abs/2406.14508
+N1  - <p>arXiv:2406.14508 [cs]</p>
+ER  - 
+
+TY  - GEN
+TI  - An Overview of Catastrophic AI Risks
+AU  - Hendrycks, Dan
+AU  - Mazeika, Mantas
+AU  - Woodside, Thomas
+DA  - 2023/10//
+PY  - 2023
+PB  - arXiv
+UR  - http://arxiv.org/abs/2306.12001
+N1  - <p>arXiv:2306.12001 [cs]</p>
+ER  - 
+
+TY  - GEN
+TI  - Quantifying the Impact of Large Language Models on Collective Opinion Dynamics
+AU  - Li, Chao
+AU  - Su, Xing
+AU  - Han, Haoying
+AU  - Xue, Cong
+AU  - Zheng, Chunmo
+AU  - Fan, Chao
+DA  - 2024/01//
+PY  - 2024
+PB  - SSRN
+UR  - https://papers.ssrn.com/abstract=4688547
+ER  - 
+
+TY  - GEN
+TI  - Measuring and Benchmarking Large Language Models’ Capabilities to Generate Persuasive Language
+AU  - Pauli, Amalie Brogaard
+AU  - Augenstein, Isabelle
+AU  - Assent, Ira
+DA  - 2024/06//
+PY  - 2024
+PB  - arXiv
+UR  - http://arxiv.org/abs/2406.17753
+N1  - <p>arXiv:2406.17753 [cs]</p>
+ER  - 
+
+TY  - GEN
+TI  - On the Conversational Persuasiveness of Large Language Models: A Randomized Controlled Trial
+AU  - Salvi, Francesco
+AU  - Ribeiro, Manoel Horta
+AU  - Gallotti, Riccardo
+AU  - West, Robert
+DA  - 2024/03//
+PY  - 2024
+PB  - arXiv
+UR  - http://arxiv.org/abs/2403.14380
+N1  - <p>arXiv:2403.14380 [cs]</p>
+ER  - 
+
+TY  - GEN
+TI  - Large Language Models Can Enhance Persuasion Through Linguistic Feature Alignment
+AU  - Shin, Minkyu
+AU  - Kim, Jin
+DA  - 2024/02//
+PY  - 2024
+PB  - SSRN
+UR  - https://papers.ssrn.com/abstract=4725351
+ER  - 
+
+TY  - GEN
+TI  - Designing and Evaluating Multi-Chatbot Interface for Human-AI Communication: Preliminary Findings from a Persuasion Task
+AU  - Yoon, Sion
+AU  - Kim, Tae Eun
+AU  - Oh, Yoo Jung
+DA  - 2024/06//
+PY  - 2024
+PB  - arXiv
+UR  - http://arxiv.org/abs/2406.19648
+N1  - <p>arXiv:2406.19648 [cs]</p>
+ER  - 
+
+TY  - GEN
+TI  - Measuring the Persuasiveness of Language Models
+AU  - Durmus, Esin
+AU  - Lovitt, Liane
+AU  - Tamkin, Alex
+AU  - Ritchie, Stuart
+AU  - Clark, Jack
+AU  - Ganguli, Deep
+DA  - 2024///
+PY  - 2024
+UR  - https://www.anthropic.com/news/measuring-model-persuasiveness
+ER  - 
+

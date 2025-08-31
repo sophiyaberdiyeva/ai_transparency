@@ -5,7 +5,7 @@ import io
 import pandas as pd
 import time
 
-articles = pd.read_csv("data/review_581959_screen_csv_20250603221248.csv")
+articles = pd.read_csv("data/subset_50_title_abstract_unscreened.csv")
 articles = articles[['Title', 'Abstract', 'Covidence #']]
 articles = articles.head(50)
 

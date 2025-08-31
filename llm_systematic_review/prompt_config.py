@@ -17,7 +17,7 @@ class PromptTemplates:
         "Evaluate the provided article against each inclusion and exclusion criterion. "
         "For each criterion, provide brief reasoning and a 'Yes/No' decision. "
         "Conclude with a final 'Include' or 'Exclude' decision. "
-        "Strictly follow the specified output format and structure."
+        "Strictly follow the specified output format and structure. Interpret the criteria description literally. If an abstract is not provided, the paper should be excluded."
     ),
     "inclusion_criteria": [
         {
@@ -30,7 +30,7 @@ class PromptTemplates:
         },
         {
             "name": "IC3: Technology",
-            "description": "The persuasive messages must be delivered by an LLM, chatbot, conversational agent, or similar generative AI. Exclude studies where the LLM is only used for data analysis."
+            "description": "It must be explicitly stated that the persuasive messages are delivered by an LLM or an LLM-based conversational agent (e.g., chatbot, assistant). Exclude studies where the LLM is only used for data analysis."
         },
         {
             "name": "IC4: Study Type",
@@ -84,7 +84,7 @@ class PromptTemplates:
         "Evaluate the provided article against each inclusion and exclusion criterion. "
         "For each criterion, provide brief reasoning and a 'Yes/No' decision. "
         "Conclude with a final 'Include' or 'Exclude' decision. "
-        "Strictly follow the specified output format and structure."
+        "Strictly follow the specified output format and structure. Interpret the criteria description literally."
     ),
     "inclusion_criteria": [
         {
@@ -97,7 +97,7 @@ class PromptTemplates:
         },
         {
             "name": "IC3: Technology",
-            "description": "The persuasive messages must be delivered by an LLM, chatbot, conversational agent, or similar generative AI. Exclude studies where the LLM is only used for data analysis."
+            "description": "It must be explicitly stated that the persuasive messages are delivered by an LLM or an LLM-based conversational agent (e.g., chatbot, assistant). Exclude studies where the LLM is only used for data analysis."
         },
         {
             "name": "IC4: Study Type",

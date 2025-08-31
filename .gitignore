@@ -165,3 +165,4 @@ data/preprints_scopus/page_2_files
 data/preprints_scopus/page_3_files
 
 llm_systematic_review/Fast_R_CNN_R50_FPN_model_final_e5f7ce.pkl
+*.pdf

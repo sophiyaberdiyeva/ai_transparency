@@ -1,0 +1,258 @@
+TY  - RPRT
+AU  - Durmus, Esin
+AU  - Lovitt, Liane
+AU  - Tamkin, Alex
+AU  - Ritchie, Stuart
+AU  - Clark, Jack
+AU  - Ganguli, Deep
+PY  - 2024
+TI  - Measuring the Persuasiveness of Language Models
+UR  - https://www.anthropic.com/news/measuring-model-persuasiveness
+ER  - 
+
+TY  - UNPB
+AU  - Bozdag, Nimet Beyza
+AU  - Mehri, Shuhaib
+AU  - Tur, Gokhan
+AU  - Hakkani-Tür, Dilek
+PY  - 2025
+TI  - Persuade Me if You Can: A Framework for Evaluating Persuasion Effectiveness and Susceptibility Among Large Language Models
+JO  - arXiv preprint arXiv:2503.01829
+UR  - https://arxiv.org/abs/2503.01829
+ER  - 
+
+TY  - INPROC
+AU  - Han, Chi
+AU  - Wang, Qifan
+AU  - Peng, Hao
+AU  - Xiong, Wenhan
+AU  - Chen, Yu
+AU  - Ji, Heng
+AU  - Wang, Sinong
+PY  - 2024
+TI  - LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models
+BT  - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)
+ED  - Duh, Kevin
+ED  - Gomez, Helena
+ED  - Bethard, Steven
+PB  - Association for Computational Linguistics
+CY  - Mexico City, Mexico
+SP  - 3991
+EP  - 4008
+DO  - 10.18653/v1/2024.naacl-long.222
+UR  - https://doi.org/10.18653/v1/2024.naacl-long.222
+ER  - 
+
+TY  - INPROC
+AU  - Furumai, Kazuaki
+AU  - Legaspi, Roberto
+AU  - Vizcarra Romero, Julio Cesar
+AU  - Yamazaki, Yudai
+AU  - Nishimura, Yasutaka
+AU  - Semnani, Sina
+AU  - Ikeda, Kazushi
+AU  - Shi, Weiyan
+AU  - Lam, Monica
+PY  - 2024
+TI  - Zero-shot Persuasive Chatbots with LLM-Generated Strategies and Information Retrieval
+BT  - Findings of the Association for Computational Linguistics: EMNLP 2024
+ED  - Al-Onaizan, Yaser
+ED  - Bansal, Mohit
+ED  - Chen, Yun-Nung
+PB  - Association for Computational Linguistics
+CY  - Miami, Florida, USA
+SP  - 11224
+EP  - 11249
+DO  - 10.18653/v1/2024.findings-emnlp.656
+UR  - https://doi.org/10.18653/v1/2024.findings-emnlp.656
+ER  - 
+
+TY  - JOUR
+AU  - Matz, Sandra C
+AU  - Teeny, Jacob D
+AU  - Vaid, Sumer S
+AU  - Peters, Heinrich
+AU  - Harari, Gabriella M
+AU  - Cerf, Moran
+PY  - 2024
+TI  - The potential of generative AI for personalized persuasion at scale
+T2  - Scientific Reports
+VL  - 14
+IS  - 1
+SP  - 4692
+ER  - 
+
+TY  - INPROC
+AU  - Samad, Azlaan Mustafa
+AU  - Mishra, Kshitij
+AU  - Firdaus, Mauajama
+AU  - Ekbal, Asif
+PY  - 2022
+TI  - Empathetic Persuasion: Reinforcing Empathy and Persuasiveness in Dialogue Systems
+BT  - Findings of the Association for Computational Linguistics: NAACL 2022
+ED  - Carpuat, Marine
+ED  - de Marneffe, Marie-Catherine
+ED  - Meza Ruiz, Ivan Vladimir
+PB  - Association for Computational Linguistics
+CY  - Seattle, United States
+SP  - 844
+EP  - 856
+DO  - 10.18653/v1/2022.findings-naacl.63
+UR  - https://doi.org/10.18653/v1/2022.findings-naacl.63
+ER  - 
+
+TY  - UNPB
+AU  - Salvi, Francesco
+AU  - Ribeiro, Manoel Horta
+AU  - Gallotti, Riccardo
+AU  - West, Robert
+PY  - 2024
+TI  - On the Conversational Persuasiveness of Large Language Models: A Randomized Controlled Trial
+JO  - arXiv preprint arXiv:2403.14380
+DO  - 10.48550/arXiv.2403.14380
+UR  - https://doi.org/10.48550/arXiv.2403.14380
+ER  - 
+
+TY  - JOUR
+AU  - Goldstein, Josh A
+AU  - Chao, Jason
+AU  - Grossman, Shelby
+AU  - Stamos, Alex
+AU  - Tomz, Michael
+PY  - 2024
+TI  - How persuasive is AI-generated propaganda?
+T2  - PNAS Nexus
+VL  - 3
+IS  - 2
+SP  - pgae034
+DO  - 10.1093/pnasnexus/pgae034
+UR  - https://doi.orgorg/10.1093/pnasnexus/pgae034
+ER  - 
+
+TY  - UNPB
+AU  - Bai, Hui
+AU  - Voelkel, Jan G
+AU  - Muldowney, Shane
+AU  - Eichstaedt, Johannes C
+AU  - Willer, Robb
+PY  - 2025
+TI  - AI-Generated Messages Can Be Used to Persuade Humans on Policy Issues
+DO  - 10.31219/osf.io/stakv_v5
+UR  - https://doi.org/10.31219/osf.io/stakv_v5
+ER  - 
+
+TY  - INPROC
+AU  - Jin, Chuhao
+AU  - Ren, Kening
+AU  - Kong, Lingzhen
+AU  - Wang, Xiting
+AU  - Song, Ruihua
+AU  - Chen, Huan
+PY  - 2024
+TI  - Persuading across Diverse Domains: a Dataset and Persuasion Large Language Model
+BT  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+ED  - Ku, Lun-Wei
+ED  - Martins, Andre
+ED  - Srikumar, Vivek
+PB  - Association for Computational Linguistics
+CY  - Bangkok, Thailand
+SP  - 1678
+EP  - 1706
+DO  - 10.18653/v1/2024.acllong.92
+UR  - https://doi.org/10.18653/v1/2024.acllong.92
+ER  - 
+
+TY  - INPROC
+AU  - Tiwari, Abhisek
+AU  - Saha, Sriparna
+AU  - Sengupta, Shubhashis
+AU  - Maitra, Anutosh
+AU  - Ramnani, Roshni
+AU  - Bhattacharyya, Pushpak
+PY  - 2022
+TI  - Persona or Context? Towards Building Context adaptive Personalized Persuasive Virtual Sales Assistant
+BT  - Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ED  - He, Yulan
+ED  - Ji, Heng
+ED  - Li, Sujian
+ED  - Liu, Yang
+ED  - Chang, Chua-Hui
+PB  - Association for Computational Linguistics
+CY  - Online only
+SP  - 1035
+EP  - 1047
+DO  - 10.18653/v1/2022.aacl-main.76
+UR  - https://doi.org/10.18653/v1/2022.aacl-main.76
+ER  - 
+
+TY  - JOUR
+AU  - Tiwari, Abhisek
+AU  - Khandwe, Abhijeet
+AU  - Saha, Sriparna
+AU  - Ramnani, Roshni
+AU  - Maitra, Anutosh
+AU  - Sengupta, Shubhashis
+PY  - 2023
+TI  - Towards personalized persuasive dialogue generation for adversarial task oriented dialogue setting
+T2  - Expert Systems with Applications
+VL  - 213
+SP  - 118775
+ER  - 
+
+TY  - INPROC
+AU  - Wang, Xuewei
+AU  - Shi, Weiyan
+AU  - Kim, Richard
+AU  - Oh, Yoojung
+AU  - Yang, Sijia
+AU  - Zhang, Jingwen
+AU  - Yu, Zhou
+PY  - 2019
+TI  - Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good
+BT  - Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics
+ED  - Korhonen, Anna
+ED  - Traum, David
+ED  - Màrquez, Lluís
+PB  - Association for Computational Linguistics
+CY  - Florence, Italy
+SP  - 5635
+EP  - 5649
+DO  - 10.18653/v1/P19-1566
+UR  - https://doi.org/10.18653/v1/P19-1566
+ER  - 
+
+TY  - INPROC
+AU  - Liu, Siyang
+AU  - Zheng, Chujie
+AU  - Demasi, Orianna
+AU  - Sabour, Sahand
+AU  - Li, Yu
+AU  - Yu, Zhou
+AU  - Jiang, Yong
+AU  - Huang, Minlie
+PY  - 2021
+TI  - Towards Emotional Support Dialog Systems
+BT  - Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+ED  - Zong, Chengqing
+ED  - Xia, Fei
+ED  - Li, Wenjie
+ED  - Navigli, Roberto
+PB  - Association for Computational Linguistics
+CY  - Online
+SP  - 3469
+EP  - 3483
+DO  - 10.18653/v1/2021.acl-long.269
+UR  - https://doi.org/10.18653/v1/2021.acl-long.269
+ER  - 
+
+TY  - INPROC
+AU  - Du, Yilun
+AU  - Li, Shuang
+AU  - Torralba, Antonio
+AU  - Tenenbaum, Joshua B.
+AU  - Mordatch, Igor
+PY  - 2024
+TI  - Improving Factuality and Reasoning in Language Models through Multiagent Debate
+BT  - Forty-first International Conference on Machine Learning
+UR  - https://openreview.net/forum?id=zj7YuTE4t8
+ER  -

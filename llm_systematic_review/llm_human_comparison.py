@@ -5,24 +5,25 @@ Created on Fri Jun 13 14:04:10 2025
 @author: Admin
 """
 import pandas as pd
+import numpy as np
 
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
     
-human = pd.read_csv("data/human_title_abstract_50.csv")
+human = pd.read_excel("data/subset_50_title_abstract_screened_caro.xlsm")
 llm = pd.read_csv("data/llm_title_abstract_50.csv")
 
-human.columns = ['human_covidence_no', 'title', 'human_human_participants', 'human_involves_persuasion', 'human_persuasion_is_ai', 'human_is_theoretical', 'human_is_marketing', 'human_final_decision']
+#human.columns = ['human_covidence_no', 'title', 'human_human_participants', 'human_involves_persuasion', 'human_persuasion_is_ai', 'human_is_theoretical', 'human_is_marketing', 'human_final_decision']
 
 for col in llm.columns:
     if '.decision' in col:
         llm[col] = llm[col].map({'Yes': 1, 'No': 0})
-        
+
 llm['final_decision'] = llm['final_decision'].map({'Include': 1, 'Exclude': 0})
 
 
 llm.columns = ['covidence_number',
-               'final_decision',
+               'llm_final_decision',
                'llm_ic_1_population.reasoning',
                'llm_ic_1_population.decision',
                'llm_ic_2_intervention.reasoning',
@@ -34,7 +35,12 @@ llm.columns = ['covidence_number',
                'llm_ec_1_domain.reasoning',
                'llm_ec_1_domain.decision']
 
-cm = confusion_matrix(human['human_final_decision'], llm['final_decision'])
+joint_df = pd.concat([human, llm], axis=1)
+joint_df['human_llm_diff']= np.where(joint_df['Decision logical']!=joint_df['llm_final_decision'], 1, 0)
+
+joint_df.to_csv('data/caro_llm_title_abstract_50_joint.csv', index = False)
+
+cm = confusion_matrix(human['Decision logical'], llm['llm_final_decision'])
 fig, ax = plt.subplots()
 disp = ConfusionMatrixDisplay(confusion_matrix=cm)
 disp.plot(ax=ax)
