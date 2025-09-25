@@ -21,12 +21,12 @@ class PromptTemplates:
     ),
     "inclusion_criteria": [
         {
-            "name": "IC1: Population",
-            "description": "The study must involve human participants and report on data collected from them."
+            "name": "IC1: Participants",
+            "description": "The study must involve human participants and report on data collected from them. Do not consider simple content creation like writing posts, comments, or essays as a form of participation."
         },
         {
             "name": "IC2: Intervention",
-            "description": "The study must investigate a deliberate attempt to persuade (i.e., shape, reinforce, or change attitudes, beliefs, or behaviors) using messages. Exclude studies focused purely on task completion without persuasive intent."
+            "description": "The study must investigate a deliberate attempt to persuade (i.e., shape, reinforce, or change attitudes, beliefs, or behaviors) using messages. Exclude studies focused purely on task completion without persuasive intent. Exclude studies on education unless they are directly aimed at persuading people on societal topics (e.g., health, politics, misinformation, etc.)."
         },
         {
             "name": "IC3: Technology",
@@ -34,24 +34,25 @@ class PromptTemplates:
         },
         {
             "name": "IC4: Study Type",
-            "description": "The article must be an empirical study (e.g., experiment, observational study) reporting on primary data. Exclude reviews, meta-analyses, commentaries, editorials, and theoretical/conceptual papers."
+            "description": "The article must be an empirical study (e.g., experiment, observational study) reporting on primary data. Exclude reviews, meta-analyses, commentaries, editorials, theoretical/conceptual papers, and study proposals for which no data has been collected."
         }
     ],
     "exclusion_criteria": [
         {
             "name": "EC1: Commercial Domain",
-            "description": "The study must be excluded if its primary persuasive goal is commercial (e.g., marketing, advertising, increasing sales)."
+            "description": "The study must be excluded if its primary persuasive goal is commercial (e.g., marketing, advertising, increasing sales, customer service)."
         }
     ],
     "input_article": {
         "title": "",
         "abstract": "",
+        "year": "",
         "covidence_number": ""
     },
     "output_format": {
         "covidence_number": "...",
         "inclusion_criteria_evaluation": {
-            "llm_ic_1_population": {
+            "llm_ic_1_participants": {
                 "reasoning": "...",
                 "decision": "Yes/No"
             },

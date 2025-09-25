@@ -1,0 +1,22 @@
+TY  - JOUR
+TI  - Algorithmic or Human Source? Examining Relative Hostile Media Effect With a Transformer-Based Framework
+AU  - Jia, Chenyan
+AU  - Liu, Ruibo
+T2  - Media and Communication
+AB  - The relative hostile media effect suggests that partisans tend to perceive the bias of slanted news differently depending on whether the news is slanted in favor of or against their sides. To explore the effect of an algorithmic vs. human source on hostile media perceptions, this study conducts a 3 (author attribution: human, algorithm, or human-assisted algorithm) x 3 (news attitude: pro-issue, neutral, or anti-issue) mixed factorial design online experiment (N = 511). This study uses a transformer-based adversarial network to auto-generate comparable news headlines. The framework was trained with a dataset of 364,986 news stories from 22 mainstream media outlets. The results show that the relative hostile media effect occurs when people read news headlines attributed to all types of authors. News attributed to a sole human source is perceived as more credible than news attributed to two algorithm-related sources. For anti-Trump news headlines, there exists an interaction effect between author attribution and issue partisanship while controlling for people’s prior belief in machine heuristics. The difference of hostile media perceptions between the two partisan groups was relatively larger in anti-Trump news headlines compared with pro-Trump news headlines.
+DA  - 2021/11/18/
+PY  - 2021
+DO  - 10.17645/mac.v9i4.4164
+DP  - www.cogitatiopress.com
+VL  - 9
+IS  - 4
+SP  - 170
+EP  - 181
+LA  - en
+SN  - 2183-2439
+ST  - Algorithmic or Human Source?
+UR  - https://www.cogitatiopress.com/mediaandcommunication/article/view/4164
+Y2  - 2025/09/01/11:04:47
+L1  - https://www.cogitatiopress.com/mediaandcommunication/article/download/4164/2373
+ER  - 
+
