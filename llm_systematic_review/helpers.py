@@ -3,7 +3,7 @@ from openai import OpenAI
 from openai.types.chat import ChatCompletionChunk 
 import json
 
-def create_llm_abs_title_prompt_string(prompt_template: Dict, title: str, abstract: str, covidence_number: str) -> str:
+def create_llm_abs_title_prompt_string(prompt_template: Dict, title: str, abstract: str, year: str, covidence_number: str) -> str:
     """
     Fills a prompt template with article-specific information.
 
@@ -21,6 +21,7 @@ def create_llm_abs_title_prompt_string(prompt_template: Dict, title: str, abstra
     # Inject the specific article data into the prompt
     filled_prompt["input_article"]["title"] = title
     filled_prompt["input_article"]["abstract"] = abstract
+    filled_prompt["input_article"]["year"] = year
     filled_prompt["input_article"]["covidence_number"] = covidence_number
     
     return json.dumps(filled_prompt, indent=2)
@@ -74,7 +75,8 @@ def get_llm_screening_decision(prompt_string: str, api_key: str, base_url: str, 
                 {"role": "user", "content": prompt_string}
             ],
             model=model,
-            response_format={"type": "json_object"} # Use JSON mode for reliability
+            response_format={"type": "json_object"}, # Use JSON mode for reliability
+            seed = 42
         )
         
         response_content = chat_completion.choices[0].message.content
